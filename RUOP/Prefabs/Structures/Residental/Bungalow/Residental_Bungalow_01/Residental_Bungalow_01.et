@@ -1,0 +1,80 @@
+SCR_DestructibleBuildingEntity : "{6D3CE4441C908FD3}Prefabs/Structures/Residental/Bungalow/Residental_Bungalow_01/Residental_Bungalow_01_Base.et" {
+ ID "6462BD4977BF8AEB"
+ {
+  $grp SCR_DestructibleBuildingEntity : "{008ECFE8693C0A1D}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Stairs02.et" {
+   {
+    ID "6462CA9A312960EA"
+    coords -0.983 0.154 -4.904
+    angleY 180
+   }
+   {
+    ID "6462CA9AC337C0EB"
+    coords 0 0.154 4.984
+    scale 1.5
+   }
+  }
+  $grp GenericEntity : "{18F439CD25E566A9}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_EXT_ST_B_beige.et" {
+   {
+    ID "6462BD4B116C1CFE"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_door_ext_left_01"
+     }
+    }
+    angleY 180
+   }
+   {
+    ID "6462BD4B1AC90E3C"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_door_ext_left_02"
+     }
+    }
+    angleY 180
+   }
+  }
+  $grp GenericEntity : "{68FCE88471D70D9F}Prefabs/Structures/BuildingParts/Doors/DoorSet_Bungalow_Sleft_01.et" {
+   {
+    ID "64630A65D8FE36FF"
+    components {
+     Hierarchy "{64630A658B4FB69C}" {
+      PivotID "socket_door_int_left_01"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "64630A65DFA6E665"
+    components {
+     Hierarchy "{64630A658B4FB69C}" {
+      PivotID "socket_door_int_left_02"
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{B7668E7A7E5BDCF7}Prefabs/Structures/Residental/Bungalow/Residental_Bungalow_01/Residental_Bungalow_01_Furniture_01.et" {
+   ID "6462BD4B56B0B56C"
+   coords 0 0 0
+  }
+  Building : "{E762906FBD94633A}Prefabs/Structures/BuildingParts/Windows/Win_ShopHouse_E_A/Win_ShopHouse_E_A_420x275_2_B.et" {
+   ID "6462BD4BC709F52D"
+   components {
+    Hierarchy "{6462BD4BD55BBD0B}" {
+     PivotID "socket_window_420x275_01"
+    }
+   }
+   coords 0 0 0
+  }
+  Building : "{FABA4D0C2D186F10}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_130x142_1_M1.et" {
+   ID "64630D5BAD391003"
+   components {
+    Hierarchy "{64630D5BA129239C}" {
+     PivotID "socket_window_130x142_01"
+    }
+   }
+   coords 0 0 0
+   angleY 180
+  }
+ }
+}

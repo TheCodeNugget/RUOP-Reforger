@@ -1,0 +1,34 @@
+MatPBRMulti {
+ OverlayBlackPower 1
+ OverlayWhitePower 0
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{B7F6B4EC169F0E89}Assets/Structures/Residental/Bungalow/Residental_Bungalow_01/Data/Residental_Bungalow_01_INT_Global_MASK.edds"
+ MaskRedScale 1
+ MaskGreenScale 1
+ MaskBlueScale 1
+ MudOpacity 0.959
+ MudColor 0.527 0.433 0.411 1
+ MudRoughness 1.3
+ MudMetalness 1.441
+ MudDetNormal 0.6
+ DirtOpacity 0.103
+ DirtLayerSharpness 2.409
+ DirtColor 1 0.617 0.326 1
+ DirtRoughness 2.778
+ Enabled_4 1
+ BCR_4 "{9C568F5695FC2681}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_BCR.edds"
+ NMO_4 "{A48E34C44C8B741F}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_NMO.edds"
+ Enabled_3 1
+ Color_3 0.181 0.091 0.056 1
+ BCR_3 "{2F62948847C4D093}Assets/_SharedData/Wood/ST_WoodPlanks_01_Paint_BCR.edds"
+ NMO_3 "{32129ACB7B31034F}Assets/_SharedData/Wood/ST_WoodPlanks_01_NMO.edds"
+ Roughness_3 1.325
+ Enabled_2 1
+ Color_2 0.518 0.426 0.195 1
+ BCR_2 "{CF8E4E8EDB27CC9D}Assets/_SharedData/Wallpaper/ST_Wallpaper_flowers_04_BCR.edds"
+ NMO_2 "{579B921646232DC5}Assets/_SharedData/Wallpaper/ST_Wallpaper_01_NMO.edds"
+ DetNormal_2 1.2
+ BCR_1 "{64B56A92B6E518E9}Assets/_SharedData/Floor/ST_Floor_House_E_01_BCR.edds"
+ NMO_1 "{5C6DD1006F924A77}Assets/_SharedData/Floor/ST_Floor_House_E_01_NMO.edds"
+ Metalness_1 0
+}

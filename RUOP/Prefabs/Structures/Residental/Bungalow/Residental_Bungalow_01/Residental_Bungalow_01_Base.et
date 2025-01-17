@@ -1,0 +1,25 @@
+SCR_DestructibleBuildingEntity {
+ ID "6462BD4977BF8AEB"
+ components {
+  MeshObject "{6462BD49500E21B9}" {
+   Object "{71BD3DE306EA90F2}Assets/Structures/Residental/Bungalow/Residental_Bungalow_01/Residental_Bungalow_01.xob"
+   ClutterOccluder 1
+  }
+  RigidBody "{6462BD4827F25582}" {
+   Gravity 0
+   ModelGeometry 1
+   Static 1
+  }
+  WorldSubsceneComponent "{6462BD4B9F96FA40}" {
+  }
+  Hierarchy "{6462BD4B905936FD}" {
+  }
+ }
+ Flags 525315
+ {
+  EnvironmentProbeEntity : "{B59D045716DA69B0}Prefabs/Structures/Residental/Bungalow/Residental_Bungalow_01/Probe_Residental_Bungalow_01.et" {
+   ID "6462BD48413DB438"
+   coords -0.829 1.1 -1.53
+  }
+ }
+}

@@ -1,0 +1,31 @@
+MatPBRMulti {
+ OverlayBlackPower 1
+ OverlayWhitePower 0
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{23D718757AE4E41B}Assets/Structures/Residental/Bungalow/Residental_Bungalow_01/Data/Residental_Bungalow_01_EXT_Global_MASK.edds"
+ MaskRedScale 1
+ MaskGreenScale 1
+ MaskBlueScale 1
+ MudColor 0.451 0.451 0.451 1
+ DirtOpacity 2.099
+ DirtLayerSharpness 1.105
+ DirtColor 0.429 0.429 0.429 1
+ DirtRoughness 1.2
+ Enabled_4 1
+ BCR_4 "{76269C3DE41F8F15}Assets/_SharedData/Roof/ST_Roof_Slate_01_BCR.edds"
+ NMO_4 "{4EFE27AF3D68DD8B}Assets/_SharedData/Roof/ST_Roof_Slate_01_NMO.edds"
+ Enabled_3 1
+ Color_3 0.196 0.153 0.094 1
+ BCR_3 "{2F62948847C4D093}Assets/_SharedData/Wood/ST_WoodPlanks_01_Paint_BCR.edds"
+ NMO_3 "{32129ACB7B31034F}Assets/_SharedData/Wood/ST_WoodPlanks_01_NMO.edds"
+ Roughness_3 1.3
+ Enabled_2 1
+ Color_2 0.546 0.533 0.513 1
+ BCR_2 "{6BE53556B0CB5ED9}Assets/_SharedData/Plaster/ST_Plaster_Bare_02_BCR.edds"
+ NMO_2 "{6DEDE9B7814F5B0A}Assets/_SharedData/Plaster/ST_Plaster_Bare_02_NMO.edds"
+ MaskSharpness_2 5
+ MaskOffset_2 0.507
+ Color_1 0.708 0.677 0.601 1
+ BCR_1 "{162CC3A075D8E2A2}Assets/_SharedData/Stone/ST_StoneWall_01_BCR.edds"
+ NMO_1 "{2EF47832ACAFB03C}Assets/_SharedData/Stone/ST_StoneWall_01_NMO.edds"
+}
