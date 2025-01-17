@@ -1,0 +1,8 @@
+GameProject {
+ ID "RUOP"
+ GUID "6462B2A69176FE6F"
+ TITLE "RUOP"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
