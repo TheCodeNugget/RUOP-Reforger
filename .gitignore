@@ -1,0 +1,15 @@
+# Source Model Files
+*.fbx
+
+# Registered Model Files
+*.xob
+
+# Source Image Files
+*.tif
+*.tiff
+
+# Registered Image Files
+*.edds
+
+# Misc
+RUOP/resourceDatabase.rdb
