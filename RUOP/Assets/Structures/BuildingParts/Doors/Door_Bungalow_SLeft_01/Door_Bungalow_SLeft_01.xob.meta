@@ -1,0 +1,41 @@
+MetaFileClass {
+ Name "{EE68CCB677A6162D}Assets/Structures/BuildingParts/Doors/Door_Bungalow_SLeft_01/Door_Bungalow_SLeft_01.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "Door_Bungalow_SLeft_01.fbx"
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{6462E267F5F088CF}" {
+     SourceMaterial "Door_Bungalow_SLeft_01_C290A50A911E22CB_8F4D4191E8FE3653"
+     AssignedMaterial "{C290A50A911E22CB}Assets/Structures/BuildingParts/Doors/Door_Bungalow_SLeft_01/Data/Door_Bungalow_SLeft_01.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Door_Bungalow_SLeft_01 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Door_Bungalow_SLeft_01 {
+     LayerPreset "DoorFireView"
+     SurfaceProperties {
+      "{EA270CE454C419FD}Common/Materials/Game/wood.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6462E26542DAD0B4}" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

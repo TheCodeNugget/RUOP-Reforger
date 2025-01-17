@@ -1,0 +1,46 @@
+GenericEntity : "{F8934D709ECD133C}Prefabs/Structures/BuildingParts/Doors/Door_Barracks_LEFT_EXT_ST_M1_white.et" {
+ ID "0000000000000001"
+ components {
+  DoorComponent "{221C667A9F7D4B69}" {
+   Enabled 0
+  }
+  MeshObject "{309366462BDAFB24}" {
+   Object "{EE68CCB677A6162D}Assets/Structures/BuildingParts/Doors/Door_Bungalow_SLeft_01/Door_Bungalow_SLeft_01.xob"
+  }
+  SlidingDoorComponent "{6462E2641D9EFABF}" {
+   DoorAction SCR_DoorUserAction "{6462E26412DC5F51}" {
+    ParentContextList {
+     "SCR_DoorUserAction"
+    }
+   }
+   AngleRange -65
+   OpenTime 1
+   SoundFilename "{BF3A96C18D3BAF3B}Sounds/Structures/_ShaderData/Doors/Structures_Door_Wooden_NoHandle.acp"
+   SoundPoints {
+    SoundPointEventInfo "{6462E264006244F0}" {
+    }
+    SoundPointEventInfo "{6462E26400549A37}" {
+     Event SOUND_OPEN_FINISH
+    }
+    SoundPointEventInfo "{6462E26400351373}" {
+     Event SOUND_CLOSE_START
+    }
+    SoundPointEventInfo "{6462E264001D6EBC}" {
+     Event SOUND_CLOSE_FINISH
+    }
+    SoundPointEventInfo "{6462E26403F99903}" {
+     Event SOUND_MOVEMENT
+    }
+   }
+  }
+  ActionsManagerComponent "{F32B667C3C823800}" {
+   ActionContexts {
+    UserActionContext "{50888D37F529F720}" {
+     Position PointInfo "{50888D37F0EB77E0}" {
+      Offset 0.525 1.1 0.0003
+     }
+    }
+   }
+  }
+ }
+}

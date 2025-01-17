@@ -1,0 +1,28 @@
+GenericEntity {
+ ID "64630A646E23D5B3"
+ components {
+  MeshObject "{64630A645A334FE0}" {
+   Object "{76C981E114600E9E}Assets/Structures/BuildingsParts/Doors/Door_Village_E/DoorFrame_Village_E_B_INT_B.xob"
+  }
+  RigidBody "{64630A659BC33921}" {
+   ResponseIndex "Normal"
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{64630A65960A8C55}" {
+  }
+  Hierarchy "{64630A658B4FB69C}" {
+  }
+ }
+ {
+  GenericEntity : "{CC89D7B39B8E0901}Prefabs/Structures/BuildingParts/Doors/Door_Bungalow_Sleft_01.et" {
+   ID "64630A646E23D5AD"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     PivotID "Scene_Root"
+    }
+   }
+   coords 0 0 0
+  }
+ }
+}
