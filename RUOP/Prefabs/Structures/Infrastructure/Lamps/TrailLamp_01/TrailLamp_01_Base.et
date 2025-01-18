@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "6464B5A40EC162A4"
+ components {
+  MeshObject "{6464B5A4E17D112E}" {
+   Object "{8581772D244D2558}Assets/Structures/Infrastructure/Lamps/TrailLamp_01/TrailLamp_01.xob"
+  }
+  RigidBody "{6464B5A435EC137E}" {
+   LayerPreset "BuildingFireView"
+   ResponseIndex "Normal"
+   ModelGeometry 1
+   Static 1
+  }
+  TagComponent "{6464B5A437E20E08}" {
+   "Tag categories" 16
+  }
+ }
+ Flags 525315
+}

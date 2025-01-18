@@ -1,0 +1,41 @@
+MetaFileClass {
+ Name "{8581772D244D2558}Assets/Structures/Infrastructure/Lamps/TrailLamp_01/TrailLamp_01.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "TrailLamp_01.fbx"
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{6464B5EA4EDE15B0}" {
+     SourceMaterial "TrailLamp_01"
+     AssignedMaterial "{6806E6D560729F7B}Assets/Structures/Infrastructure/Lamps/TrailLamp_01/Data/TrailLamp_01.emat"
+    }
+   }
+   MeshParams {
+    MeshParam TrailLamp_01 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_LampStreet_01 {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6464B5F58A2948DC}" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

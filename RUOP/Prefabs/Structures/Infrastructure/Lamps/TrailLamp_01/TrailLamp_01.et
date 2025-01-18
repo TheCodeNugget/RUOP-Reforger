@@ -1,0 +1,16 @@
+GenericEntity : "{F435793707CAD1C4}Prefabs/Structures/Infrastructure/Lamps/TrailLamp_01/TrailLamp_01_Base.et" {
+ ID "6464B5A40EC162A4"
+ coords 0 0 0
+ {
+  LightEntity : "{A63F9FC3B480DD4A}Prefabs/Structures/Infrastructure/Lamps/TrailLamp_01/LightPrefabs/TrailLamp_01_light.et" {
+   ID "6465342E3C5D3301"
+   coords 0 1.3 0
+   angleX -45
+   LV 6
+   SpotAngle 75
+   VolLightOffset 0.05
+   VolLightScale 0.25
+   VolLightIntensity 0.15
+  }
+ }
+}

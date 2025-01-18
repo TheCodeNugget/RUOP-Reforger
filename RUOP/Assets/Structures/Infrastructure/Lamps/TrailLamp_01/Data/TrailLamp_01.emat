@@ -1,0 +1,20 @@
+MatPBRMulti {
+ SpecularMul 3.38
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{5081AF250196A4CC}Assets/Structures/Infrastructure/Lamps/TrailLamp_01/Data/TrailLamp_01_Global_MASK.edds"
+ Color_3 0.402 0.402 0.402 1
+ BCR_3 "{C5EEAF752073C75C}Assets/_SharedData/Metal/ST_Metal_Rust_Coarse01_1m_BCR.edds"
+ NMO_3 "{FD3614E7F90495C2}Assets/_SharedData/Metal/ST_Metal_Rust_Coarse01_1m_NMO.edds"
+ MaskSharpness_3 2.398
+ MaskOffset_3 0.181
+ Mask_3 "{A585D759C4C68372}Assets/_SharedData/DetailMask/ST_Rust_02_Mask1.edds"
+ DetNormal_3 1.069
+ Enabled_2 1
+ Color_2 0.386 0.109 0.038 1
+ BCR_2 "{884C38B4DD0DD84A}Assets/_SharedData/Metal/ST_Metal_Worn_01_BCR.edds"
+ NMO_2 "{B0948326047A8AD4}Assets/_SharedData/Metal/ST_Metal_Worn_01_NMO.edds"
+ Metalness_2 0.8
+ Color_1 0.386 0.109 0.038 1
+ BCR_1 "{BB440784A103CB06}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_BCR.edds"
+ NMO_1 "{20EF5DA168DE7806}Assets/_SharedData/Metal/ST_MetalPaint_Coated_02_1m_NMO.edds"
+}
