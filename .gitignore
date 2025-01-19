@@ -1,5 +1,6 @@
 # Source Model Files
 *.fbx
+*.txo
 
 # Source Image Files
 *.tif
