@@ -69,6 +69,20 @@ MetaFileClass {
      Mass 0
      Margin 0
     }
+    GeometryParam UTM_Cabin_01 {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Cabin_Firegeo_01 {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
    }
    Common TXOCommonClass "{6462BB64A2EBB51C}" {
     GenerateBSP 1
