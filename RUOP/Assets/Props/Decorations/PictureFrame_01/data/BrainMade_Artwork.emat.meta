@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5906EB15E86486B8}Assets/Props/Commercial/Posters/Data/BrainMade_Artwork.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

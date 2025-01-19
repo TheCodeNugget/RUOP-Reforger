@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "6466D662483F7DDE"
+ components {
+  MeshObject "{6466D6622BA698FA}" {
+   Object "{CA29383F27BB8272}Assets/Props/Decorations/PictureFrame_01/PictureFrame_01.xob"
+   LODFactors {
+    5 2.5 1 1
+   }
+  }
+  RigidBody "{6466D6627284EEF0}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords -1.7 1.647 -0.1
+ angleY 180
+ angleZ -90
+}

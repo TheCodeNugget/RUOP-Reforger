@@ -6,6 +6,12 @@ GenericEntity {
    ID "6461101E4912369A"
    coords 1.771 0.152 4.498
   }
+  GenericEntity : "{0F821410625C33C4}Prefabs/Props/Decorations/Paintings/Brainmade_Framed.et" {
+   ID "6466DA6BBBE9384C"
+   coords -1.7 1.647 -0.1
+   angleY -180
+   angleZ -90
+  }
   GenericEntity : "{148E2BA12B48CFBA}Prefabs/Props/Furniture/PlantRoom_04.et" {
    ID "6461101E491228E3"
    coords -2.37 1.058 -0.337
@@ -235,11 +241,6 @@ GenericEntity {
    ID "6461101E49123695"
    coords 1.223 0.752 3.603
    angleY -139.031
-  }
-  GenericEntity : "{F9D18EC5EFF93A2E}Prefabs/Props/Decorations/Paintings/PaintingBig_01_V13.et" {
-   ID "6461101E491228DF"
-   coords -2.212 1.952 -0.088
-   angleY 180
   }
   GenericEntity : "{FF8BD8E8A95DB3D2}Prefabs/Props/Furniture/Fridge_01.et" {
    ID "6461101E491236E1"

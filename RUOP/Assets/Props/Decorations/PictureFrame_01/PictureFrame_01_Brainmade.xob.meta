@@ -1,0 +1,45 @@
+MetaFileClass {
+ Name "{CA29383F27BB8272}Assets/Props/Decorations/PictureFrame_01/PictureFrame_01.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6466A907886C9DF3}" {
+     SourceMaterial "PictureFrame_01_Glass_AB1EF5AC3316617D"
+     AssignedMaterial "{AB1EF5AC3316617D}Assets/Props/Decorations/PaintingBig_01_620x1000/Data/PaintingBig_01_Glass.emat"
+    }
+    MaterialAssignClass "{6466A907886C9DEA}" {
+     SourceMaterial "PictureFrame_01_3975E5F8B38B2933"
+     AssignedMaterial "{3975E5F8B38B2933}Assets/Props/Decorations/PictureFrame_01/data/PictureFrame_01.emat"
+    }
+    MaterialAssignClass "{6466A907886C9DEB}" {
+     SourceMaterial "BrainMade_Artwork_5906EB15E86486B8"
+     AssignedMaterial "{5906EB15E86486B8}Assets/Props/Decorations/PictureFrame_01/data/BrainMade_Artwork.emat"
+    }
+   }
+   MeshParams {
+    MeshParam PictureFrame_01 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_PictureFrame_01_Wood {
+     LayerPreset "PropView"
+     SurfaceProperties {
+      "{EA270CE454C419FD}Common/Materials/Game/wood.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

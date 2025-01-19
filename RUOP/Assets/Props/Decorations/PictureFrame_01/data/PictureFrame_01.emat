@@ -1,0 +1,4 @@
+MatPBRBasic : "{3975E5F8B38B2932}Assets/Props/Furniture/LightTable_01/data/LightTable_01.emat" {
+ BCRMap "{9631781A0A97305C}Assets/Props/Furniture/PictureFrame_01/data/PictureFrame_01_BCR.edds"
+ NMOMap "{B106335E09D1764B}Assets/Props/Furniture/PictureFrame_01/data/PictureFrame_01_NHO.edds"
+}
