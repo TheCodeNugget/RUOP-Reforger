@@ -1,0 +1,17 @@
+MatPBRMulti {
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{7293D9C63E97C2C3}Assets/Structures/Residental/Apartment/Residental_Apartment_01/Data/Residental_Apartment_01_SmallFlat_Int_Global_MASK.edds"
+ Enabled_4 1
+ BCR_4 "{9C568F5695FC2681}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_BCR.edds"
+ NMO_4 "{A48E34C44C8B741F}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_NMO.edds"
+ DetNormal_4 0.5
+ Roughness_4 1.5
+ Enabled_3 1
+ BCR_3 "{4E6E0CC5B71EC813}Assets/_SharedData/Wallpaper/ST_Wallpaper_flowers_02_BCR.edds"
+ NMO_3 "{579B921646232DC5}Assets/_SharedData/Wallpaper/ST_Wallpaper_01_NMO.edds"
+ Enabled_2 1
+ BCR_2 "{029A84113517FD09}Assets/_SharedData/Concrete/ST_Concrete_Clean_01_BCR.edds"
+ NMO_2 "{3A423F83EC60AF97}Assets/_SharedData/Concrete/ST_Concrete_Clean_01_NMO.edds"
+ BCR_1 "{A5A509FC6CC09E20}Assets/_SharedData/Floor/ST_Floor_House_E_04_BCR.edds"
+ NMO_1 "{9D7DB26EB5B7CCBE}Assets/_SharedData/Floor/ST_Floor_House_E_04_NMO.edds"
+}

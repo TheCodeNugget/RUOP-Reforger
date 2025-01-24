@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3F9C3E2BC06649DD}Assets/Structures/Residental/Apartment/Residental_Apartment_01/Data/Residental_Apartment_01_SmallFlat_Int.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

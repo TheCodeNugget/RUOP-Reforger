@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B79616FE531510DD}Assets/Structures/Residental/Apartment/Residental_Apartment_01/Data/Residental_Apartment_01_Stairs_Int.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

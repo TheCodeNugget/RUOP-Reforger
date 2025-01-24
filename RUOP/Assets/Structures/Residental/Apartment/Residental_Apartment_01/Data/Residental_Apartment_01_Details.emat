@@ -1,0 +1,21 @@
+MatPBRMulti {
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{510B740A59943408}Assets/Structures/Residental/Apartment/Residental_Apartment_01/Data/Residental_Apartment_01_Details_Global_MASK.edds"
+ Enabled_3 1
+ Color_3 0.296 0.152 0.003 1
+ BCR_3 "{AAEB42112BD58A64}Assets/_SharedData/Metal/ST_metal_painted_brushstrokes_01_BCR.edds"
+ NMO_3 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ Enabled_2 1
+ Color_2 0.06 0.06 0.06 1
+ BCR_2 "{AAEB42112BD58A64}Assets/_SharedData/Metal/ST_metal_painted_brushstrokes_01_BCR.edds"
+ NMO_2 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ Metalness_2 1.5
+ Color_1 0.181 0.091 0.056 1
+ BCR_1 "{2F62948847C4D093}Assets/_SharedData/Wood/ST_WoodPlanks_01_Paint_BCR.edds"
+ NMO_1 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{6470C68D6726DD98}" {
+  TilingU 2
+  TilingV 2
+ }
+ Roughness_1 1.5
+}

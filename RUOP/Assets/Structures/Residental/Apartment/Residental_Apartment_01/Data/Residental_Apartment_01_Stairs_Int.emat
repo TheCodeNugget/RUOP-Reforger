@@ -1,0 +1,22 @@
+MatPBRMulti {
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{8347992A026A08DD}Assets/Structures/Residental/Apartment/Residental_Apartment_01/Data/Residental_Apartment_01_Stairs_Int_Global_MASK.edds"
+ Enabled_3 1
+ Color_3 0.745 0.745 0.745 1
+ BCR_3 "{9C568F5695FC2681}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_BCR.edds"
+ NMO_3 "{A48E34C44C8B741F}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_NMO.edds"
+ DetNormal_3 0.5
+ Roughness_3 2
+ Enabled_2 1
+ Color_2 0.267 0.206 0.117 1
+ BCR_2 "{E5E3EE4DA6DB2376}Assets/_SharedData/Plaster/ST_Lincrusta_Paint_01_BCR.edds"
+ NMO_2 "{DD3B55DF7FAC71E8}Assets/_SharedData/Plaster/ST_Lincrusta_Paint_01_NMO.edds"
+ MaskSharpness_2 8
+ Mask_2 "{5B2628DD1595DFCA}Assets/_SharedData/DetailMask/ST_Stripes_01_Mask1.edds"
+ MaskUVScale_2 0.585
+ DetNormal_2 0.75
+ Metalness_2 0
+ BCR_1 "{52BC9E9FACB72F12}Assets/_SharedData/Floor/ST_Floor_MunicipalOffice_E_01_BCR.edds"
+ NMO_1 "{6A64250D75C07D8C}Assets/_SharedData/Floor/ST_Floor_MunicipalOffice_E_01_NMO.edds"
+ Metalness_1 0
+}
