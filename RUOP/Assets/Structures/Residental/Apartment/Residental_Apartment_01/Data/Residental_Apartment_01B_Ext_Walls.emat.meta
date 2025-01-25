@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5958C286C1B840AF}Assets/Structures/Residental/Apartment/Residental_Apartment_01/Data/Residental_Apartment_01B_Ext_Walls.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

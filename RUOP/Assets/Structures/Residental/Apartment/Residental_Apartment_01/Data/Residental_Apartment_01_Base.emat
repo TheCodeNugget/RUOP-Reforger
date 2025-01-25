@@ -1,2 +1,13 @@
-MatPBRBasic "{646F118C7D69813C}" {
+MatPBRMulti {
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{004A02ED9BE7C6A4}Assets/Structures/Residental/Apartment/Residental_Apartment_01/Data/Residental_Apartment_01_Base_Global_MASK.edds"
+ Enabled_2 1
+ BCR_2 "{F930728B97FD53D0}Assets/_SharedData/Floor/ST_Floor_Granite_Polished_01_BCR.edds"
+ NMO_2 "{C1E8C9194E8A014E}Assets/_SharedData/Floor/ST_Floor_Granite_Polished_01_NMO.edds"
+ Roughness_2 2
+ Metalness_2 0.507
+ BCR_1 "{B8D3162933C86379}Assets/_SharedData/Stone/Granite_01_BCR.edds"
+ NMO_1 "{800BADBBEABF31E7}Assets/_SharedData/Stone/Granite_01_NMO.edds"
+ Roughness_1 2
+ Metalness_1 0.541
 }

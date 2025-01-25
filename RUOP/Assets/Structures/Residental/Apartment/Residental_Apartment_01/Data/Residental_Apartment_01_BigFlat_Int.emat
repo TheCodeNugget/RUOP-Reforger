@@ -1,2 +1,23 @@
-MatPBRBasic "{646F118C71CF2BCF}" {
+MatPBRMulti {
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{053F784E71E26045}Assets/Structures/Residental/Apartment/Residental_Apartment_01/Data/Residental_Apartment_01_BigFlat_Int_Global_MASK.edds"
+ Enabled_4 1
+ BCR_4 "{9C568F5695FC2681}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_BCR.edds"
+ NMO_4 "{A48E34C44C8B741F}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_NMO.edds"
+ DetNormal_4 0.5
+ Roughness_4 1.5
+ Enabled_3 1
+ Color_3 0.847 0.496 0.112 1
+ BCR_3 "{1F148B96CED69BB6}Assets/_SharedData/Plaster/ST_Plaster_Clean_BW_02_BCR.edds"
+ NMO_3 "{27CC300417A1C928}Assets/_SharedData/Plaster/ST_Plaster_Clean_BW_02_NMO.edds"
+ DetNormal_3 0.5
+ Roughness_3 1.55
+ Enabled_2 1
+ Color_2 0.753 0.49 0.098 1
+ BCR_2 "{CF8E4E8EDB27CC9D}Assets/_SharedData/Wallpaper/ST_Wallpaper_flowers_04_BCR.edds"
+ NMO_2 "{579B921646232DC5}Assets/_SharedData/Wallpaper/ST_Wallpaper_01_NMO.edds"
+ BCR_1 "{64B56A92B6E518E9}Assets/_SharedData/Floor/ST_Floor_House_E_01_BCR.edds"
+ NMO_1 "{5C6DD1006F924A77}Assets/_SharedData/Floor/ST_Floor_House_E_01_NMO.edds"
+ DetNormal_1 1.5
+ Roughness_1 0.55
 }

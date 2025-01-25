@@ -14,4 +14,6 @@ MatPBRMulti {
  NMO_2 "{3A423F83EC60AF97}Assets/_SharedData/Concrete/ST_Concrete_Clean_01_NMO.edds"
  BCR_1 "{A5A509FC6CC09E20}Assets/_SharedData/Floor/ST_Floor_House_E_04_BCR.edds"
  NMO_1 "{9D7DB26EB5B7CCBE}Assets/_SharedData/Floor/ST_Floor_House_E_04_NMO.edds"
+ DetNormal_1 1.5
+ Roughness_1 0.55
 }

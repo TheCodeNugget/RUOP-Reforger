@@ -1,2 +1,12 @@
 MatPBRMulti {
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{5171EF91F9D3D490}Assets/Structures/Residental/Apartment/Residental_Apartment_01/Data/Residental_Apartment_01_ShopInt_Global_MASK.edds"
+ Enabled_2 1
+ Color_2 0.753 0.49 0.098 1
+ BCR_2 "{1F148B96CED69BB6}Assets/_SharedData/Plaster/ST_Plaster_Clean_BW_02_BCR.edds"
+ NMO_2 "{27CC300417A1C928}Assets/_SharedData/Plaster/ST_Plaster_Clean_BW_02_NMO.edds"
+ BCR_1 "{A5A509FC6CC09E20}Assets/_SharedData/Floor/ST_Floor_House_E_04_BCR.edds"
+ NMO_1 "{9D7DB26EB5B7CCBE}Assets/_SharedData/Floor/ST_Floor_House_E_04_NMO.edds"
+ DetNormal_1 1.5
+ Roughness_1 0.55
 }

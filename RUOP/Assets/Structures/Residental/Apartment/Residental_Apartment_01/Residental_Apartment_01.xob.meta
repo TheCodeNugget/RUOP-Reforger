@@ -12,9 +12,9 @@ MetaFileClass {
      SourceMaterial "Residental_Apartment_01_Base_14CED0622F4E0553"
      AssignedMaterial "{14CED0622F4E0553}Assets/Structures/Residental/Apartment/Residental_Apartment_01/Data/Residental_Apartment_01_Base.emat"
     }
-    MaterialAssignClass "{6470C6A19BDA75FA}" {
-     SourceMaterial "DefaultGeneratedMaterial"
-     AssignedMaterial "{06C17D3A1194FCF3}Assets/Structures/Residental/Apartment/Residental_Apartment_01/Data/DefaultGeneratedMaterial.emat"
+    MaterialAssignClass "{6470C6B01D2F02D0}" {
+     SourceMaterial "Residental_Apartment_01_BigFlat_Int_70522E1AEB8B41C8"
+     AssignedMaterial "{70522E1AEB8B41C8}Assets/Structures/Residental/Apartment/Residental_Apartment_01/Data/Residental_Apartment_01_BigFlat_Int.emat"
     }
     MaterialAssignClass "{647078519853E4F6}" {
      SourceMaterial "Residental_Apartment_01_Ext_Walls_C1B06C9D8B2BF5C9"
@@ -36,49 +36,45 @@ MetaFileClass {
      SourceMaterial "dummyvolume_D3975B51F51E6BD5"
      AssignedMaterial "{D3975B51F51E6BD5}Common/Materials/dummyvolume.emat"
     }
-    MaterialAssignClass "{647078519853E496}" {
+    MaterialAssignClass "{64730B24EAA334F8}" {
      SourceMaterial "PRT_INTDR_8E55D99EDC035CEA"
      AssignedMaterial "{8E55D99EDC035CEA}Assets/_SharedMaterials/Portals/NULL.emat"
     }
-    MaterialAssignClass "{647078519853E48D}" {
+    MaterialAssignClass "{64730B24EAA334E6}" {
      SourceMaterial "PRT_EXTDR_BIG_EBB2191AB49E6C11"
      AssignedMaterial "{EBB2191AB49E6C11}Assets/_SharedMaterials/Portals/DOOR_GLASS_A_EM.emat"
     }
-    MaterialAssignClass "{647078519853E482}" {
+    MaterialAssignClass "{64730B24EAA334E3}" {
      SourceMaterial "PRT_EXTDR_GRG_6700FA7CB5E67272"
      AssignedMaterial "{6700FA7CB5E67272}Assets/_SharedMaterials/Portals/PRT_DOOR_GARAGE_A_EM.emat"
     }
-    MaterialAssignClass "{647078519853E4BA}" {
-     SourceMaterial "PRT_WIN_90x72_CEB896376F5474DF"
-     AssignedMaterial "{CEB896376F5474DF}Assets/_SharedMaterials/Portals/PRT_90x72_A_EM.emat"
-    }
-    MaterialAssignClass "{647078519853E4B2}" {
-     SourceMaterial "PRT_WIN_130x142_32EEDB65CD635FAA"
-     AssignedMaterial "{32EEDB65CD635FAA}Assets/_SharedMaterials/Portals/PRT_130x142_A_EM.emat"
-    }
-    MaterialAssignClass "{647078519853E4AA}" {
-     SourceMaterial "PRT_WIN_195x142_19D4C8EB97DF02AB"
-     AssignedMaterial "{19D4C8EB97DF02AB}Assets/_SharedMaterials/Portals/PRT_195x142_A_EM.emat"
-    }
-    MaterialAssignClass "{647078519853E4A3}" {
-     SourceMaterial "PRT_WIN_225x150_3B9DA0B1AE7B69C5"
-     AssignedMaterial "{3B9DA0B1AE7B69C5}Assets/Structures/Military/Houses/GarageMilitary_E_01/Data/PRT_GarageMilitary01_GlassBlock.emat"
-    }
-    MaterialAssignClass "{647078519853E558}" {
+    MaterialAssignClass "{64730B24EAA334E1}" {
      SourceMaterial "PRT_EXTDR_SML_EBB2191AB49E6C11"
      AssignedMaterial "{EBB2191AB49E6C11}Assets/_SharedMaterials/Portals/DOOR_GLASS_A_EM.emat"
     }
-    MaterialAssignClass "{647078519853E557}" {
+    MaterialAssignClass "{64730B24EAA3349A}" {
+     SourceMaterial "PRT_WIN_130x142_32EEDB65CD635FAA"
+     AssignedMaterial "{32EEDB65CD635FAA}Assets/_SharedMaterials/Portals/PRT_130x142_A_EM.emat"
+    }
+    MaterialAssignClass "{64730B24EAA33497}" {
+     SourceMaterial "PRT_WIN_195x142_19D4C8EB97DF02AB"
+     AssignedMaterial "{19D4C8EB97DF02AB}Assets/_SharedMaterials/Portals/PRT_195x142_A_EM.emat"
+    }
+    MaterialAssignClass "{64730B24EAA33490}" {
      SourceMaterial "PRT_WIN_195x182_21AC9F856E331806"
      AssignedMaterial "{21AC9F856E331806}Assets/_SharedMaterials/Portals/PRT_195x182_A_EM.emat"
     }
-    MaterialAssignClass "{647078519D180886}" {
-     SourceMaterial ""
-     AssignedMaterial "{01081F53875A3F57}.emat"
+    MaterialAssignClass "{64730B24EAA3348D}" {
+     SourceMaterial "PRT_WIN_225x150_3B9DA0B1AE7B69C5"
+     AssignedMaterial "{3B9DA0B1AE7B69C5}Assets/Structures/Military/Houses/GarageMilitary_E_01/Data/PRT_GarageMilitary01_GlassBlock.emat"
     }
-    MaterialAssignClass "{6470C6B01D2F02D0}" {
-     SourceMaterial "Residental_Apartment_01_BigFlat_Int_70522E1AEB8B41C8"
-     AssignedMaterial "{70522E1AEB8B41C8}Assets/Structures/Residental/Apartment/Residental_Apartment_01/Data/Residental_Apartment_01_BigFlat_Int.emat"
+    MaterialAssignClass "{64730B24EAA33486}" {
+     SourceMaterial "PRT_WIN_90x72_CEB896376F5474DF"
+     AssignedMaterial "{CEB896376F5474DF}Assets/_SharedMaterials/Portals/PRT_90x72_A_EM.emat"
+    }
+    MaterialAssignClass "{64730B2D55E6340A}" {
+     SourceMaterial "Residental_Apartment_01_Curtain_2E30B0B6ECED1F98"
+     AssignedMaterial "{2E30B0B6ECED1F98}Assets/Props/Furniture/CurtainsWindow_01/Data/CurtainsWindow_01.emat"
     }
    }
    VolumeParams {
@@ -113,9 +109,9 @@ MetaFileClass {
     }
     MeshParam Lockbars {
     }
-    MeshParam Mirror_Plane {
-    }
     MeshParam StairSupport {
+    }
+    MeshParam Curtains {
     }
    }
    GeometryParams {
