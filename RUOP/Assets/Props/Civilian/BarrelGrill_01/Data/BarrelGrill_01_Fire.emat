@@ -1,0 +1,56 @@
+MatPBRMulti {
+ MaskMap "{644AC5D997A93758}Assets/Props/Civilian/Fireplace_01/Data/FirePlace_01_MASK.edds" 
+ VFXMap "{DBD2685CD2F08B32}Assets/Props/Civilian/Fireplace_01/Data/FirePlace_01_VFX.edds" 
+ NormalPower 1.75
+ GlobalNMOMap "{ABA06DF48E943A5E}Assets/Props/Civilian/Fireplace_01/Data/FirePlace_01_NMO.edds" 
+ DirtOpacity 0.849
+ DirtLayerSharpness 1.313
+ DirtColor 0.051 0.02 0 1
+ DirtRoughness 1.068
+ DirtBCRMap "{D608FA6C45C55A6F}Assets/_SharedData/Dirt/ST_Dirt02_BCR.edds" 
+ DirtMaskMap "{490DFFF4475F7EC7}Assets/_SharedData/DetailMask/ST_Dirt_09_Mask1.edds" 
+ DirtUVTransform MatUVTransform "{519D3963D66F44C3}" {
+  TilingU 4
+  TilingV 4
+  Rotation 13.235
+ }
+ Enabled_4 1
+ Color_4 0 0 0 1
+ BCR_4 "{12F7DB7333E60620}Assets/_SharedData/Wood/ST_WoodPlain_Rough_01_BCR.edds" 
+ NMO_4 "{6E8CE1807D694599}Assets/_SharedData/Wood/ST_WoodPlain_Rough_01_NMO.edds" 
+ UVTransform_4 MatUVTransform "{519D39602AA07C71}" {
+  TilingU 3
+  TilingV 3
+ }
+ DetNormal_4 2
+ Enabled_3 1
+ Color_3 0.475 0.475 0.475 1
+ BCR_3 "{9B97AA81EF1AAA3C}Assets/_SharedData/Dirt/ST_destruct_rust_BCR.edds" 
+ NMO_3 "{0EB8937BD911AEC9}Assets/_SharedData/Dirt/ST_Dirt_Sand_NMO.edds" 
+ MaskSharpness_3 0.797
+ MaskOffset_3 0.355
+ Mask_3 "{490DFFF4475F7EC7}Assets/_SharedData/DetailMask/ST_Dirt_09_Mask1.edds" 
+ UVTransform_3 MatUVTransform "{519D3961F53341D2}" {
+  TilingU 8
+  TilingV 8
+ }
+ DetNormal_3 2.552
+ Enabled_2 1
+ Color_2 0.973 0.973 0.973 1
+ BCR_2 "{0F4E177CBD0F9B82}Assets/_SharedData/Soil/ST_Soil_01_1m_BCR.edds" 
+ NMO_2 "{EED041FE9CB208F1}Assets/_SharedData/Dirt/ST_Dirt02_NMO.edds" 
+ MaskSharpness_2 5.882
+ MaskOffset_2 0.169
+ Mask_2 "{82A0289C4982ADA1}Assets/_SharedData/DetailMask/ST_Dirt_Rock_01_Mask1.edds" 
+ UVTransform_2 MatUVTransform "{519D3960D238A2B7}" {
+  TilingU 4
+  TilingV 4
+ }
+ Color_1 0.427 0.392 0.357 1
+ BCR_1 "{2483ECDD78B9260E}Assets/_SharedData/Concrete/ST_Concrete_Rough_01_BCR.edds" 
+ NMO_1 "{1C5B574FA1CE7490}Assets/_SharedData/Concrete/ST_Concrete_Rough_01_NMO.edds" 
+ UVTransform_1 MatUVTransform "{519D1DDABE5B754D}" {
+  TilingU 6
+  TilingV 6
+ }
+}

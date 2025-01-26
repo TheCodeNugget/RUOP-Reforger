@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1E739BC14CF45134}Assets/Props/Civilian/BarrelGrill_01/Data/BarrelGrill_01_Body.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
