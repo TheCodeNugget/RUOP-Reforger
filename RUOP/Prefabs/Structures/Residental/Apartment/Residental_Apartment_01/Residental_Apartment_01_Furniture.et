@@ -397,7 +397,7 @@ GenericEntity {
    }
    {
     ID "6472E3DFAADC28C2"
-    coords 9.169 13.341 6.078
+    coords 9.299 13.341 6.078
     angleY -90
     angleZ 75
    }
@@ -1086,13 +1086,13 @@ GenericEntity {
   $grp GenericEntity : "{B653EB7C7BEA285D}Prefabs/Props/Commercial/Posters/PosterSingle_A1_Moto_V2.et" {
    {
     ID "6472E3DFAAC03EC8"
-    coords 6.3 3.9 5.445
+    coords 6.311 3.9 5.445
     angleY 90
     angleZ -20.395
    }
    {
     ID "6472E3DFAADC28C5"
-    coords 6.3 12.9 5.445
+    coords 6.311 12.9 5.445
     angleY 90
     angleZ -20.395
    }
