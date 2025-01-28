@@ -1,0 +1,26 @@
+MatPBRMulti {
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{0380E0502C0BB9FA}Assets/Structures/Residental/Apartment/Residental_Apartment_02/Data/Residental_Apartment_02_HouseInt_Global_MASK.edds"
+ Enabled_4 1
+ Color_4 0.386 0.361 0.361 1
+ BCR_4 "{9C568F5695FC2681}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_BCR.edds"
+ NMO_4 "{A48E34C44C8B741F}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_NMO.edds"
+ Enabled_3 1
+ Color_3 0.485 0.462 0.429 1
+ BCR_3 "{1F148B96CED69BB6}Assets/_SharedData/Plaster/ST_Plaster_Clean_BW_02_BCR.edds"
+ NMO_3 "{27CC300417A1C928}Assets/_SharedData/Plaster/ST_Plaster_Clean_BW_02_NMO.edds"
+ DetNormal_3 0.5
+ Roughness_3 1.55
+ Enabled_2 1
+ Color_2 0.485 0.462 0.429 1
+ BCR_2 "{3B8B0137E179C9E5}Assets/_SharedData/Plaster/ST_Plaster_Brizolit_01_BCR.edds"
+ NMO_2 "{0353BAA5380E9B7B}Assets/_SharedData/Plaster/ST_Plaster_Brizolit_01_NMO.edds"
+ MaskSharpness_2 4.73
+ Mask_2 "{CBD042945A4747A5}Assets/_SharedData/DetailMask/ST_Concrete_03_Mask1.edds"
+ Color_1 0.37 0.162 0.029 1
+ BCR_1 "{1AA12E733F4CD6D9}Assets/_SharedData/Wood/ST_WoodPlain_Mid_01_BCR.edds"
+ NMO_1 "{A4514F137C0238D2}Assets/_SharedData/Wood/ST_WoodPlain_Mid_03_BCR.edds"
+ DetNormal_1 1.014
+ Roughness_1 1.216
+ Metalness_1 0
+}

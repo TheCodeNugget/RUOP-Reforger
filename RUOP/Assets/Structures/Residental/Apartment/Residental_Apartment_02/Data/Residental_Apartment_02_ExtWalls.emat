@@ -1,0 +1,60 @@
+MatPBRMulti {
+ DisableInteriorProbes 1
+ OverlayBlackPower 0.6
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{AC30350B10CC97A0}Assets/Structures/Residental/Apartment/Residental_Apartment_02/Data/Residental_Apartment_02_ExtWalls_Global_MASK.edds"
+ MudOpacity 0.706
+ MudColor 0.342 0.337 0.33 1
+ MudRoughness 3.279
+ MudBCRMap "{95E5751345993295}Assets/_SharedData/Plaster/ST_Plaster_Bare_01_BCR.edds"
+ MudNMOMap "{120DEBB9182433C8}Assets/_SharedData/Plaster/ST_Plaster_Bare_01_NMO.edds"
+ MudMaskMap "{A585D759C4C68372}Assets/_SharedData/DetailMask/ST_Rust_02_Mask1.edds"
+ MudUVTransform MatUVTransform "{55D89B81228AC97A}" {
+  TilingU 2
+  TilingV 2
+ }
+ DirtOpacity 0.323
+ DirtLayerSharpness 0.68
+ DirtColor 0.162 0.127 0.097 1
+ DirtRoughness 2.39
+ DirtMaskMap "{A3B4218CCE57A275}Assets/_SharedData/DetailMask/ST_Paint_peeling_03_Mask1.edds"
+ Enabled_4 1
+ Color_4 0.386 0.36 0.36 1
+ BCR_4 "{95E5751345993295}Assets/_SharedData/Plaster/ST_Plaster_Bare_01_BCR.edds"
+ NMO_4 "{120DEBB9182433C8}Assets/_SharedData/Plaster/ST_Plaster_Bare_01_NMO.edds"
+ MaskSharpness_4 2.6
+ Mask_4 "{0B6572B61227A4F5}Assets/_SharedData/DetailMask/ST_Concrete_02_Mask1.edds"
+ UVTransform_4 MatUVTransform "{55951A35165E5E5F}" {
+  TilingU 3
+  TilingV 3
+ }
+ Enabled_3 1
+ Color_3 0.665 0.572 0.493 1
+ BCR_3 "{9F19942CA4DCA771}Assets/_SharedData/Tiles/ST_tiles_brown_02_BCR.edds"
+ NMO_3 "{A7C12FBE7DABF5EF}Assets/_SharedData/Tiles/ST_tiles_brown_02_NMO.edds"
+ MaskSharpness_3 8.162
+ Mask_3 "{F4BF2FE292D334B3}Assets/_SharedData/DetailMask/ST_Concrete_01_Mask1.edds"
+ MaskUVScale_3 0.001
+ UVTransform_3 MatUVTransform "{559122289B1BF9E3}" {
+  TilingU 2.3
+  TilingV 2.3
+ }
+ Roughness_3 1.074
+ Enabled_2 1
+ Color_2 0.694 0.652 0.64 1
+ BCR_2 "{9F19942CA4DCA771}Assets/_SharedData/Tiles/ST_tiles_brown_02_BCR.edds"
+ NMO_2 "{A7C12FBE7DABF5EF}Assets/_SharedData/Tiles/ST_tiles_brown_02_NMO.edds"
+ MaskSharpness_2 1.839
+ Mask_2 "{A3B4218CCE57A275}Assets/_SharedData/DetailMask/ST_Paint_peeling_03_Mask1.edds"
+ UVTransform_2 MatUVTransform "{5576CCA433743923}" {
+  TilingU 2.3
+  TilingV 2.3
+ }
+ Color_1 0.533 0.533 0.533 1
+ BCR_1 "{029A84113517FD09}Assets/_SharedData/Concrete/ST_Concrete_Clean_01_BCR.edds"
+ NMO_1 "{3A423F83EC60AF97}Assets/_SharedData/Concrete/ST_Concrete_Clean_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{55951A351E1F5DE9}" {
+  TilingU 2
+  TilingV 2
+ }
+}

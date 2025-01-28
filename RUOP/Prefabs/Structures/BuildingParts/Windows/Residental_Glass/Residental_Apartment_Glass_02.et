@@ -1,0 +1,24 @@
+GenericEntity : "{86834A0D5920F32F}Prefabs/Structures/Core/DestructibleGlass_Base.et" {
+ ID "51C4DA20FAD8904E"
+ components {
+  MeshObject "{51C4DA208DB0E200}" {
+   Object "{2AF7DA83B5533B9B}Assets/Structures/BuildingParts/Windows/Residental_Aparment/apartment_glass_02.xob"
+   Materials {
+    MaterialAssignClass "{6482C1C3ECC67AB4}" {
+     SourceMaterial "Assets/Structures/BuildingsParts/Windows/Data/window_glass"
+     AssignedMaterial "{95C204D12167FDDE}Assets/Structures/BuildingsParts/Windows/Data/window_glass_INT.emat"
+    }
+   }
+  }
+  RigidBody "{51C4DA2091875CD5}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{52B6E4A66D596523}" {
+     m_PhaseModel "{1CC35C1323B404C6}Assets/Structures/BuildingParts/Windows/Residental_Aparment/dst/apartment_glass_02_dst.xob"
+    }
+   }
+  }
+ }
+}

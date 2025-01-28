@@ -1,0 +1,28 @@
+MatPBRMulti {
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{112A1B7305514CFC}Assets/Structures/Residental/Apartment/Residental_Apartment_02/Data/Residental_Apartment_02_StairsInt_Global_MASK.edds"
+ Enabled_4 1
+ Color_4 0.558 0.144 0.041 1
+ BCR_4 "{35DFF427FFCD66ED}Assets/_SharedData/Metal/ST_Metal_Fine01_1m_BCR.edds"
+ NMO_4 "{0D074FB526BA3473}Assets/_SharedData/Metal/ST_Metal_Fine01_1m_NMO.edds"
+ Roughness_4 0.5
+ Metalness_4 1.5
+ Enabled_3 1
+ Color_3 0.701 0.314 0.082 1
+ BCR_3 "{BC9A8DF1F2EDD684}Assets/_SharedData/Wood/ST_WoodPlain_Clean_01_BCR.edds"
+ NMO_3 "{844236632B9A841A}Assets/_SharedData/Wood/ST_WoodPlain_Clean_01_NMO.edds"
+ DetNormal_3 2
+ Roughness_3 1.5
+ Enabled_2 1
+ Color_2 0.267 0.206 0.117 1
+ BCR_2 "{E5E3EE4DA6DB2376}Assets/_SharedData/Plaster/ST_Lincrusta_Paint_01_BCR.edds"
+ NMO_2 "{DD3B55DF7FAC71E8}Assets/_SharedData/Plaster/ST_Lincrusta_Paint_01_NMO.edds"
+ Mask_2 "{5B2628DD1595DFCA}Assets/_SharedData/DetailMask/ST_Stripes_01_Mask1.edds"
+ DetNormal_2 4
+ Roughness_2 1.5
+ Color_1 0 0 0 1
+ BCR_1 "{AAEB42112BD58A64}Assets/_SharedData/Metal/ST_metal_painted_brushstrokes_01_BCR.edds"
+ NMO_1 "{A708CB5A248048F3}Assets/_SharedData/Metal/ST_Metal_Hammer_01_NMO.edds"
+ Roughness_1 2.5
+ Metalness_1 5
+}

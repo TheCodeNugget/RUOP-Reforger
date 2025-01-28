@@ -1,0 +1,27 @@
+SCR_DestructibleBuildingEntity {
+ ID "647E8D420BC4449A"
+ components {
+  MeshObject "{647E8D420BC444B8}" {
+   Object "{74517B91F89FFC3C}Assets/Structures/Residental/Apartment/Residental_Apartment_02/Residental_Apartment_02.xob"
+   LODFactors {
+   }
+   ClutterOccluder 1
+  }
+  RigidBody "{647E8D420BC444A0}" {
+   ResponseIndex "Normal"
+   ModelGeometry 1
+   Static 1
+  }
+  WorldSubsceneComponent "{647E8D420BC4455D}" {
+  }
+  Hierarchy "{647E8D420BC4455B}" {
+  }
+ }
+ Flags 525315
+ {
+  EnvironmentProbeEntity : "{19ABB13F8D958132}Prefabs/Structures/Residental/Apartment/Residental_Apartment_02/Probe_Residental_Apartment_02.et" {
+   ID "647EB2DB8823502E"
+   coords 6.707 7.579 -1.729
+  }
+ }
+}

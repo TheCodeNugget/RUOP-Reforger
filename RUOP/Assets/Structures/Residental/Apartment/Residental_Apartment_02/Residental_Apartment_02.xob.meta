@@ -1,0 +1,302 @@
+MetaFileClass {
+ Name "{74517B91F89FFC3C}Assets/Structures/Residental/Apartment/Residental_Apartment_02/Residental_Apartment_02.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{647D177D87319682}" {
+     SourceMaterial "Residental_Apartment_02_ExtWalls_311B8663BCDB29EE"
+     AssignedMaterial "{311B8663BCDB29EE}Assets/Structures/Residental/Apartment/Residental_Apartment_02/Data/Residental_Apartment_02_ExtWalls.emat"
+    }
+    MaterialAssignClass "{647D177D873196BD}" {
+     SourceMaterial "Residental_Apartment_02_HouseInt_FE540992C5410274"
+     AssignedMaterial "{FE540992C5410274}Assets/Structures/Residental/Apartment/Residental_Apartment_02/Data/Residental_Apartment_02_HouseInt.emat"
+    }
+    MaterialAssignClass "{647D177D873196BB}" {
+     SourceMaterial "Residental_Apartment_02_StairsInt_F02A6EB9890783DD"
+     AssignedMaterial "{F02A6EB9890783DD}Assets/Structures/Residental/Apartment/Residental_Apartment_02/Data/Residental_Apartment_02_StairsInt.emat"
+    }
+    MaterialAssignClass "{647D177D873196B9}" {
+     SourceMaterial "Residental_Apartment_02_ShopInt_31E3393C63B683BD"
+     AssignedMaterial "{31E3393C63B683BD}Assets/Structures/Residental/Apartment/Residental_Apartment_02/Data/Residental_Apartment_02_ShopInt.emat"
+    }
+    MaterialAssignClass "{647D177DB38E6584}" {
+     SourceMaterial "dummyvolume_D3975B51F51E6BD5"
+     AssignedMaterial "{D3975B51F51E6BD5}Common/Materials/dummyvolume.emat"
+    }
+    MaterialAssignClass "{647D177DB38E65BE}" {
+     SourceMaterial "PRT_135x300_F622341C7A0792B9"
+     AssignedMaterial "{F622341C7A0792B9}Assets/_SharedMaterials/Portals/PRT_FactoryHall_340x340.emat"
+    }
+    MaterialAssignClass "{647D177DB38E65BA}" {
+     SourceMaterial "PRT_45x300_5C8711FA9EF91AA9"
+     AssignedMaterial "{5C8711FA9EF91AA9}Assets/_SharedMaterials/Portals/PRT_70x182_A_EM.emat"
+    }
+    MaterialAssignClass "{647D177DB38E65B6}" {
+     SourceMaterial "PRT_Shop_Front_F622341C7A0792B9"
+     AssignedMaterial "{F622341C7A0792B9}Assets/_SharedMaterials/Portals/PRT_FactoryHall_340x340.emat"
+    }
+    MaterialAssignClass "{647D177DB38E65B4}" {
+     SourceMaterial "PRT_Door_Ext_85F26F5A188BEBB9"
+     AssignedMaterial "{85F26F5A188BEBB9}Assets/_SharedMaterials/Portals/DOOR_A_EM.emat"
+    }
+    MaterialAssignClass "{647D177DB38E65B0}" {
+     SourceMaterial "PRT_Door_Int_8E55D99EDC035CEA"
+     AssignedMaterial "{8E55D99EDC035CEA}Assets/_SharedMaterials/Portals/NULL.emat"
+    }
+   }
+   VolumeParams {
+    VolumeParam BOXVOL_01 {
+     Lerp 0
+    }
+    VolumeParam BOXVOL_02 {
+     Lerp 0
+    }
+   }
+   MeshParams {
+    MeshParam Ext_Walls {
+    }
+    MeshParam Ground_Ext {
+    }
+    MeshParam House {
+    }
+    MeshParam Landing_Narrow {
+    }
+    MeshParam Landing_Wide {
+    }
+    MeshParam Railing {
+    }
+    MeshParam Roof {
+    }
+    MeshParam Shop {
+    }
+    MeshParam Staircase_Int {
+    }
+    MeshParam Stairs {
+    }
+    MeshParam Steps {
+    }
+    MeshParam Base {
+    }
+    MeshParam Winframes {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Base_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Ext_Walls_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Ground_Ext_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_House_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Landing_Narrow_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Landing_Wide_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Railing_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Roof_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Shop_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Staircase_Int_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Steps_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Base_BuildingFireView {
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Ext_Walls_BuildingFireView {
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Ground_Ext_BuildingFireView {
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_House_BuildingFireView {
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Landing_Narrow_BuildingFireView {
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Landing_Wide_BuildingFireView {
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Railing_BuildingFireView {
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Roof_BuildingFireView {
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Shop_BuildingFireView {
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Staircase_Int_BuildingFireView {
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_BuildingFireView {
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Steps_BuildingFireView {
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{647B0E0015FAA28F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+    GenerateBSP 1
+    ExportOpaqueLeaves 1
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{647B0E0015FD57EF}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+    GenerateBSP 1
+    ExportOpaqueLeaves 1
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{647B0E0015FD4860}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+    GenerateBSP 1
+    ExportOpaqueLeaves 1
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{647B0E0015FD48CE}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+    GenerateBSP 1
+    ExportOpaqueLeaves 1
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{647B0E0015FD488D}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+    GenerateBSP 1
+    ExportOpaqueLeaves 1
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{647B0E0015FD48A0}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+    GenerateBSP 1
+    ExportOpaqueLeaves 1
+   }
+  }
+ }
+}
