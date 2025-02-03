@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F578DA1B5ED46757}Assets/Props/Commercial/Posters/Data/PosterLarge_Mehland_01_40x40.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+GenericEntity : "{4106EBCD72532DA4}Prefabs/Props/Commercial/Posters/PosterSingle_40x40_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{64874170529B9CCB}" {
+     SourceMaterial "PosterLarge_BakeryFestival"
+     AssignedMaterial "{F578DA1B5ED46757}Assets/Props/Commercial/Posters/Data/PosterLarge_Mehland_01_40x40.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+ }
+}
