@@ -1,0 +1,10 @@
+MatPBRMulti {
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{07994C50D97B3C39}Assets/Structures/Residental/Bungalow/Residental_Bungalow_02/Data/Residental_Bungalow_02_EXT_Global_MASK.edds"
+ Color_1 0.837 0.729 0.058 1
+ BCR_1 "{304AC54C6777D983}Assets/_SharedData/Brick/ST_Brick_01_BCR.edds"
+ NMO_1 "{08927EDEBE008B1D}Assets/_SharedData/Brick/ST_Brick_01_NMO.edds"
+ DetNormal_1 2
+ Roughness_1 2.5
+ Metalness_1 0
+}

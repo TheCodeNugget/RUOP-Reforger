@@ -1,0 +1,8 @@
+GenericEntity : "{ABA9F5BCFDD065E9}Prefabs/Structures/BuildingParts/Doors/DoorFrame_Base.et" {
+ ID "61B36747DEB01D7B"
+ components {
+  MeshObject "{61B367470698533A}" {
+   Object "{5E56442854107FD0}Assets/Structures/BuildingParts/Doors/Door_Bungalow_02/DoorFrame_PVC_320x290_Slide.xob"
+  }
+ }
+}

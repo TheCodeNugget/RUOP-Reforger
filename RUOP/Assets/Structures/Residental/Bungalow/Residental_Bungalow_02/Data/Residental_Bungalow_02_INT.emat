@@ -1,0 +1,25 @@
+MatPBRMulti {
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{93B8E0C9B500D6AB}Assets/Structures/Residental/Bungalow/Residental_Bungalow_02/Data/Residental_Bungalow_02_INT_Global_MASK.edds"
+ Enabled_4 1
+ Color_4 0.776 0.427 0 1
+ BCR_4 "{1837E633B1A92A98}Assets/_SharedData/Metal/ST_MetalPaint_Coated_02_1m_BCR.edds"
+ NMO_4 "{20EF5DA168DE7806}Assets/_SharedData/Metal/ST_MetalPaint_Coated_02_1m_NMO.edds"
+ Roughness_4 3.5
+ Metalness_4 5
+ Enabled_3 1
+ Color_3 0.165 0.082 0.012 1
+ BCR_3 "{1DADF5196CDE6B12}Assets/_SharedData/Wood/ST_WoodPlanks_Floor_01_BCR.edds"
+ NMO_3 "{25754E8BB5A9398C}Assets/_SharedData/Wood/ST_WoodPlanks_Floor_01_NMO.edds"
+ Enabled_2 1
+ BCR_2 "{D1EEDC0550155169}Assets/_SharedData/Tile/ST_Tile_01_BCR.edds"
+ NMO_2 "{E9366797896203F7}Assets/_SharedData/Tile/ST_tile_01_NMO.edds"
+ DetNormal_2 2
+ Roughness_2 2
+ Metalness_2 0
+ Color_1 0.106 0.106 0.106 1
+ BCR_1 "{E5E3EE4DA6DB2376}Assets/_SharedData/Plaster/ST_Lincrusta_Paint_01_BCR.edds"
+ NMO_1 "{DD3B55DF7FAC71E8}Assets/_SharedData/Plaster/ST_Lincrusta_Paint_01_NMO.edds"
+ DetNormal_1 1.5
+ Roughness_1 2.5
+}

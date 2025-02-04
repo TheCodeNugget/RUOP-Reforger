@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C206C2045D3E79AF}Assets/Structures/Residental/Bungalow/Residental_Bungalow_02/Data/Residental_Bungalow_02_INT.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

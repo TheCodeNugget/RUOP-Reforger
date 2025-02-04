@@ -1,0 +1,149 @@
+MetaFileClass {
+ Name "{55C0B9D5F01D0A77}Assets/Structures/Residental/Bungalow/Residental_Bungalow_02/Residental_Bungalow_02.xob"
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "Residental_Bungalow_02.fbx"
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{648D37F8875EC81E}" {
+     SourceMaterial "Residental_Bungalow_02_EXT_3E6C09F55BE03846"
+     AssignedMaterial "{3E6C09F55BE03846}Assets/Structures/Residental/Bungalow/Residental_Bungalow_02/Data/Residental_Bungalow_02_EXT.emat"
+    }
+    MaterialAssignClass "{648D37F8875EC817}" {
+     SourceMaterial "Residental_Bungalow_02_INT_C206C2045D3E79AF"
+     AssignedMaterial "{C206C2045D3E79AF}Assets/Structures/Residental/Bungalow/Residental_Bungalow_02/Data/Residental_Bungalow_02_INT.emat"
+    }
+    MaterialAssignClass "{648EE75371F918D0}" {
+     SourceMaterial "PRT_45x300_5C8711FA9EF91AA9"
+     AssignedMaterial "{5C8711FA9EF91AA9}Assets/_SharedMaterials/Portals/PRT_70x182_A_EM.emat"
+    }
+    MaterialAssignClass "{648EE75C8C101987}" {
+     SourceMaterial "dummyvolume_D3975B51F51E6BD5"
+     AssignedMaterial "{D3975B51F51E6BD5}Common/Materials/dummyvolume.emat"
+    }
+    MaterialAssignClass "{648EE75C31011C03}" {
+     SourceMaterial "PRT_Door_Ext_85F26F5A188BEBB9"
+     AssignedMaterial "{85F26F5A188BEBB9}Assets/_SharedMaterials/Portals/DOOR_A_EM.emat"
+    }
+    MaterialAssignClass "{648EE75C31011C3A}" {
+     SourceMaterial "PRT_Door_Int_8E55D99EDC035CEA"
+     AssignedMaterial "{8E55D99EDC035CEA}Assets/_SharedMaterials/Portals/NULL.emat"
+    }
+    MaterialAssignClass "{6490FE8AFC1B3D8F}" {
+     SourceMaterial "Terrain_E0078B932EB17D27"
+     AssignedMaterial "{E0078B932EB17D27}Common/Materials/default_MatTerrainObj.emat"
+    }
+   }
+   VolumeParams {
+    VolumeParam BOXVOL_1 {
+     Lerp 0
+    }
+    VolumeParam BOXVOL_2 {
+     Lerp 0
+    }
+    VolumeParam BOXVOL_3 {
+     Lerp 0
+    }
+    VolumeParam BOXVOL_4 {
+     Lerp 0
+    }
+    VolumeParam BOXVOL_5 {
+     Lerp 0
+    }
+    VolumeParam BOXVOL_6 {
+     Lerp 0
+    }
+    VolumeParam BOXVOL_8 {
+     Lerp 0
+    }
+   }
+   MeshParams {
+    MeshParam Bungalow_02 {
+    }
+    MeshParam guardrail_01 {
+    }
+    MeshParam guardrail_02 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_guardrail_01_Geo {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Bungalow_02_FireGeo {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Bungalow_02_Geo {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_guardrail_01_FireGeo {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_guardrail_02_FireGeo {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_guardrail_02_Geo {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_guardrail_03_Geo {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_guardrail_04_Geo {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{648EE75C154DDC2C}" {
+    GenerateBSP 1
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

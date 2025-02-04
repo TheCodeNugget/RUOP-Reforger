@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{1D9A4202B1505405}Assets/Structures/BuildingParts/Doors/Door_Bungalow_02/Data/Door_Bungalow_02_BCR.edds"
+ NMOMap "{2542F9906827069B}Assets/Structures/BuildingParts/Doors/Door_Bungalow_02/Data/Door_Bungalow_02_NMO.edds"
+}
