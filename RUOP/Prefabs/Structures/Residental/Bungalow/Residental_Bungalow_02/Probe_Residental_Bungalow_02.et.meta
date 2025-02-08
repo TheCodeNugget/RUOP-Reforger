@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{914997348F3D1545}Prefabs/Structures/Residental/Bungalow/Residental_Bungalow_01/Probe_Residental_Bungalow_02.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

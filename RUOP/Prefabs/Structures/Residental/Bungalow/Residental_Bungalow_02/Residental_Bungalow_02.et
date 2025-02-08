@@ -1,0 +1,124 @@
+SCR_DestructibleBuildingEntity : "{6322A00C21678009}Prefabs/Structures/Residental/Bungalow/Residental_Bungalow_02/Residental_Bungalow_02_Base.et" {
+ ID "648F37E5FCC56760"
+ {
+  SCR_DestructibleBuildingEntity : "{008ECFE8693C0A1D}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Stairs02.et" {
+   ID "6490FE8C082B38F7"
+   coords 8.428 0 4.644
+   scale 0.88
+  }
+  $grp GenericEntity : "{3CDC3AF076871D48}Prefabs/Structures/BuildingParts/Doors/DoorSet_Wood_Historical_RIGHT_INT_COV_B.et" {
+   {
+    ID "6490FE8CD26CD432"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_door_int_04"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "6490FE8CD43696BD"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_door_int_02"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "6490FE8CD52F59E4"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_door_int_03"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "6490FE8CD689935F"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "socket_door_int_01"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+  }
+  $grp GenericEntity : "{41907A420B7CEAA6}Prefabs/Structures/BuildingParts/Doors/DoorSet_Bungalow_02.et" {
+   {
+    ID "6490FE8FD147F478"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "Socket_Door_Sliding_01"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6490FE8FDD327D34"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "Socket_Door_Sliding_04"
+     }
+    }
+    coords 0 0 0
+    angleY 180
+   }
+   {
+    ID "6490FE8FDE942180"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "Socket_Door_Sliding_02"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6490FE8FDFCC6044"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      PivotID "Socket_Door_Sliding_03"
+     }
+    }
+    angleY -180
+   }
+  }
+  GenericEntity : "{582E092B8A45A953}Prefabs/Structures/Residental/Bungalow/Residental_Bungalow_02/Residental_Bungalow_02_Furniture.et" {
+   ID "649118099019222E"
+   coords 0 0 0
+  }
+  $grp Building : "{68585B0075224146}Prefabs/Structures/BuildingParts/Windows/Win_Services_E_A/Win_Services_E_A_UNI_68x300_111_B_INT.et" {
+   {
+    ID "6490FE8F3417A596"
+    components {
+     Hierarchy "{6490FE8F2DB9CE61}" {
+      PivotID "socket_win_68x300_01"
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6490FE8F37129CE9"
+    components {
+     Hierarchy "{6490FE8F27CFA707}" {
+      PivotID "socket_win_68x300_02"
+     }
+    }
+    coords 0 0 0.034
+   }
+  }
+  GenericEntity : "{B088F5F8EA2ADEF6}Prefabs/Structures/BuildingParts/Doors/Doorset_GuardHouse_03_A_EXT_B.et" {
+   ID "6490FE8F45525FD7"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     PivotID "socket_door_ext"
+    }
+   }
+   coords 0 0 0
+  }
+ }
+}

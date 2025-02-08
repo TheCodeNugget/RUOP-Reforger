@@ -1,0 +1,23 @@
+GenericEntity : "{4ABC184B00C28FD0}Prefabs/Structures/BuildingParts/Doors/DoorFrame_Bungalow_02.et" {
+ ID "61B36747DEB01D7B"
+ {
+  GenericEntity : "{2CDA635EC3E936B0}Prefabs/Structures/BuildingParts/Windows/Glass_140x285/Glass_140x285.et" {
+   ID "6490A944D3170026"
+   components {
+    Hierarchy "{51C4DA20F011E284}" {
+     PivotID "socket_glass"
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{F44E2DA749708E18}Prefabs/Structures/BuildingParts/Doors/Door_Bungalow_02.et" {
+   ID "6490FE8E620B18F2"
+   components {
+    Hierarchy "{6490FCBA3E11D118}" {
+     PivotID "socket_door"
+    }
+   }
+   coords 0 0 0
+  }
+ }
+}

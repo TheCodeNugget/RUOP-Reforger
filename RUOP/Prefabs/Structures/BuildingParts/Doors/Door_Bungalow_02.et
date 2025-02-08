@@ -1,0 +1,71 @@
+GenericEntity {
+ ID "6490FCBA37D32103"
+ components {
+  MeshObject "{6490FCBACE0832D6}" {
+   Object "{24A1E1D1B97C3C6A}Assets/Structures/BuildingParts/Doors/Door_Bungalow_02/Door_PVC_158x285.xob"
+  }
+  NavmeshCustomLinkComponent "{6490FCBAFE07C6C0}" {
+   LinkType NavmeshDoorLink "{6490FCBAF2923F4B}" {
+   }
+  }
+  RigidBody "{6490FCBAE8837EEA}" {
+   ResponseIndex "Normal"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_AISmartActionComponent "{6490FCBA1AEF51DA}" {
+   AIBehaviorTree "{49E6280CE3FAAF4F}AI/BehaviorTrees/SmartActions/SA_OpenGate.bt"
+  }
+  SlidingDoorComponent "{6490FCBA10F4E8C9}" {
+   DoorAction SCR_DoorUserAction "{6490FE8ED55ED2A2}" {
+    ParentContextList {
+     "SCR_DoorUserAction"
+    }
+   }
+   AngleRange -85
+   SoundFilename "{BF3A96C18D3BAF3B}Sounds/Structures/_ShaderData/Doors/Structures_Door_Wooden_NoHandle.acp"
+   SoundPoints {
+    SoundPointEventInfo "{6490FE8ED78CF580}" {
+    }
+    SoundPointEventInfo "{6490FE8ED77E41AD}" {
+     Event SOUND_OPEN_FINISH
+    }
+    SoundPointEventInfo "{6490FE8ED7222483}" {
+     Event SOUND_CLOSE_START
+    }
+    SoundPointEventInfo "{6490FE8ED70628FE}" {
+     Event SOUND_CLOSE_FINISH
+    }
+    SoundPointEventInfo "{6490FE8ED6F6D2D2}" {
+     Event SOUND_MOVEMENT
+    }
+   }
+  }
+  ActionsManagerComponent "{6490FCBA38DE9DD5}" {
+   ActionContexts {
+    UserActionContext "{6490FE8E53051016}" {
+     ContextName "SCR_DoorUserAction"
+     Position PointInfo "{6490FE8E4E6DF452}" {
+      Offset 1.5364 1.525 -0.02
+     }
+     Radius 0.65
+    }
+   }
+  }
+  RplComponent "{6490FCBA3C597FFE}" {
+  }
+  Hierarchy "{6490FCBA3E11D118}" {
+  }
+ }
+ {
+  GenericEntity : "{2CDA635EC3E936B0}Prefabs/Structures/BuildingParts/Windows/Glass_140x285/Glass_140x285.et" {
+   ID "6490FE8EC5540FEB"
+   components {
+    Hierarchy "{51C4DA20F011E284}" {
+     PivotID "socket_window"
+    }
+   }
+   coords 0 0 0
+  }
+ }
+}
