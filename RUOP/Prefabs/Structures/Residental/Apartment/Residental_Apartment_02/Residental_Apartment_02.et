@@ -955,14 +955,6 @@ SCR_DestructibleBuildingEntity : "{D19D9188277C500F}Prefabs/Structures/Residenta
      }
     }
    }
-   {
-    ID "6482C1C2CED56BD2"
-    components {
-     Hierarchy "{51C4DA20F011E284}" {
-      PivotID "socket_glass_stair4_007"
-     }
-    }
-   }
   }
   $grp GenericEntity : "{A580D9036824B26F}Prefabs/Structures/BuildingParts/Windows/Residental_Glass/Residental_Apartment_Glass_03.et" {
    {
