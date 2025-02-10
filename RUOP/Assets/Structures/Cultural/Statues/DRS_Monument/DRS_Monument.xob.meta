@@ -1,0 +1,61 @@
+MetaFileClass {
+ Name "{F8C5CD8E702FE3A0}Assets/Structures/Cultural/Statues/DRS_Monument/DRS_Monument.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{6495198A930915FB}" {
+     SourceMaterial "DRS_Monument_4E1B850333ADFE6F"
+     AssignedMaterial "{4E1B850333ADFE6F}Assets/Structures/Cultural/Statues/DRS_Monument/Data/DRS_Monument.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Base {
+    }
+    MeshParam Emblem {
+    }
+    MeshParam Text {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Monument_FireGeo {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Monument_Geo {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6495198A933E9B01}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6495198A933E9D44}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6495198A933E9D20}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6495198A933E9D90}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6495198A933E9E45}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6495198A933E9E12}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

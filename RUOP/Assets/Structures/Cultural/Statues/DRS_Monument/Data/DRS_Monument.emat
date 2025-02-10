@@ -1,0 +1,29 @@
+MatPBRMulti {
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{BDF6AA600A7AE067}Assets/Structures/Cultural/Statues/DRS_Monument/Data/DRS_Monument_Global_MASK.edds"
+ VFXMap "{56648B9D8FAB4792}Assets/Structures/Cultural/Statues/DRS_Monument/Data/DRS_Monument_Global_VFX.edds"
+ MudOpacity 0.719
+ MudColor 0.346 0.306 0.212 1
+ MudBCRMap "{EF0F038286F1C5A2}Assets/_SharedData/Moss/ST_Moss_Green_01_BCR.edds"
+ MudNMOMap "{D7D7B8105F86973C}Assets/_SharedData/Moss/ST_Moss_Green_01_NMO.edds"
+ MudMaskMap "{B88800D2CC8DCF27}Assets/_SharedData/Moss/ST_Moss_Green_01_Mask.edds"
+ DirtOpacity 0.49
+ DirtLayerSharpness 1.955
+ DirtColor 0.171 0.011 0.001 1
+ DirtRoughness 1.8
+ DirtBCRMap "{1624A684A875CD76}Assets/_SharedData/Concrete/ST_Concrete_Bare_01_BCR.edds"
+ DirtMaskMap "{0B6572B61227A4F5}Assets/_SharedData/DetailMask/ST_Concrete_02_Mask1.edds"
+ Enabled_4 1
+ Color_4 0 0 0 1
+ Enabled_3 1
+ Color_3 1 0.003 0 1
+ Enabled_2 1
+ Color_2 0.479 0.238 0.003 1
+ BCR_2 "{35DFF427FFCD66ED}Assets/_SharedData/Metal/ST_Metal_Fine01_1m_BCR.edds"
+ NMO_2 "{0D074FB526BA3473}Assets/_SharedData/Metal/ST_Metal_Fine01_1m_NMO.edds"
+ Roughness_2 2
+ Metalness_2 1.5
+ Color_1 0.111 0.133 0.138 1
+ BCR_1 "{029A84113517FD09}Assets/_SharedData/Concrete/ST_Concrete_Clean_01_BCR.edds"
+ NMO_1 "{3A423F83EC60AF97}Assets/_SharedData/Concrete/ST_Concrete_Clean_01_NMO.edds"
+}

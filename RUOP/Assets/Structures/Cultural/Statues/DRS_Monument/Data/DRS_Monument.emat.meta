@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4E1B850333ADFE6F}Assets/Structures/Cultural/Statues/DRS_Monument/Data/DRS_Monument.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

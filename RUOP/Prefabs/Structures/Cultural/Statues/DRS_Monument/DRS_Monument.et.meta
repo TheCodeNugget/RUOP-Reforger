@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{98BE56DFBAF2C3FA}Prefabs/Structures/Cultural/Statues/StatueCharacter_01/DRS_Monument.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
