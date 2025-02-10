@@ -1,0 +1,8 @@
+StaticModelEntity : "{639558028F94A399}Prefabs/Structures/Cultural/Statues/StatueCharacter_01/StatueCharacter_01_base.et" {
+ ID "56ACD1C4DB91DB10"
+ components {
+  MeshObject "{56ACD1C4DC78C87B}" {
+   Object "{E4A418D9B9F92FE2}Assets/Structures/Cultural/Statues/DRS_Monument/DRS_Monument_02.xob"
+  }
+ }
+}

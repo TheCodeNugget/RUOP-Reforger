@@ -2,6 +2,8 @@ MatPBRMulti {
  UVSrcGlobalMaps "UV set 2"
  MaskMap "{BDF6AA600A7AE067}Assets/Structures/Cultural/Statues/DRS_Monument/Data/DRS_Monument_Global_MASK.edds"
  VFXMap "{56648B9D8FAB4792}Assets/Structures/Cultural/Statues/DRS_Monument/Data/DRS_Monument_Global_VFX.edds"
+ GlobalNMOMap "{26168E35D3CFF6FE}Assets/Structures/Cultural/Statues/DRS_Monument/Data/DRS_Monument_Global_NMO.edds"
+ UVSrcGlobNormal "UV set 2"
  MudOpacity 0.719
  MudColor 0.346 0.306 0.212 1
  MudBCRMap "{EF0F038286F1C5A2}Assets/_SharedData/Moss/ST_Moss_Green_01_BCR.edds"
@@ -15,10 +17,16 @@ MatPBRMulti {
  DirtMaskMap "{0B6572B61227A4F5}Assets/_SharedData/DetailMask/ST_Concrete_02_Mask1.edds"
  Enabled_4 1
  Color_4 0 0 0 1
+ BCR_4 "{BEC99809792F49DF}Assets/_SharedData/Metal/ST_Lighthouse_PaintedMetal_Clean_BCR.edds"
+ NMO_4 "{8611239BA0581B41}Assets/_SharedData/Metal/ST_Lighthouse_PaintedMetal_Clean_NMO.edds"
+ Metalness_4 0
  Enabled_3 1
  Color_3 1 0.003 0 1
+ BCR_3 "{BEC99809792F49DF}Assets/_SharedData/Metal/ST_Lighthouse_PaintedMetal_Clean_BCR.edds"
+ NMO_3 "{8611239BA0581B41}Assets/_SharedData/Metal/ST_Lighthouse_PaintedMetal_Clean_NMO.edds"
+ Metalness_3 0
  Enabled_2 1
- Color_2 0.479 0.238 0.003 1
+ Color_2 0.319 0.13 0.007 1
  BCR_2 "{35DFF427FFCD66ED}Assets/_SharedData/Metal/ST_Metal_Fine01_1m_BCR.edds"
  NMO_2 "{0D074FB526BA3473}Assets/_SharedData/Metal/ST_Metal_Fine01_1m_NMO.edds"
  Roughness_2 2
