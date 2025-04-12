@@ -2,7 +2,7 @@ MetaFileClass {
  Name "{4B6A4A0782EE21A2}Assets/Structures/Residental/Apartment/Residental_Apartment_01/Residental_Apartment_01.xob"
  Configurations {
   FBXResourceClass PC {
-   ExportSkinning 1
+   ExportSceneHierarchy 1
    MaterialAssigns {
     MaterialAssignClass "{647078519853E4DB}" {
      SourceMaterial "Residental_Apartment_01_Details_7231947A753B389D"
@@ -38,7 +38,7 @@ MetaFileClass {
     }
     MaterialAssignClass "{64730B24EAA334F8}" {
      SourceMaterial "PRT_INTDR_8E55D99EDC035CEA"
-     AssignedMaterial "{8E55D99EDC035CEA}Assets/_SharedMaterials/Portals/NULL.emat"
+     AssignedMaterial "{8E55D99EDC035CEA}Assets/_SharedMaterials/Portals/PRT_DOOR_INT_A.emat"
     }
     MaterialAssignClass "{64730B24EAA334E6}" {
      SourceMaterial "PRT_EXTDR_BIG_EBB2191AB49E6C11"
@@ -79,13 +79,12 @@ MetaFileClass {
    }
    VolumeParams {
     VolumeParam BOXVOL_01 {
-     Lerp 0
     }
     VolumeParam BOXVOL_02 {
-     Lerp 0
+     Lerp 7
     }
     VolumeParam BOXVOL_03 {
-     Lerp 0
+     Lerp 7
     }
    }
    MeshParams {
@@ -112,216 +111,6 @@ MetaFileClass {
     MeshParam StairSupport {
     }
     MeshParam Curtains {
-    }
-   }
-   GeometryParams {
-    GeometryParam UTM_Balconies_FireGeometry {
-     LayerPreset "BuildingFireView"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Balconies_Geometry {
-     LayerPreset "Building"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Base_FireGeometry {
-     LayerPreset "BuildingFireView"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Base_Geometry {
-     LayerPreset "Building"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_BigFlat_Closed_FireGeometry {
-     LayerPreset "BuildingFireView"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_BigFlat_Closed_Geometry {
-     LayerPreset "Building"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_BigFlat_Open_FireGeometry {
-     LayerPreset "BuildingFireView"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_BigFlat_Open_Geometry {
-     LayerPreset "Building"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_BigShop_FireGeometry {
-     LayerPreset "BuildingFireView"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_BigShop_Geometry {
-     LayerPreset "Building"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_EntryStair_FireGeometry {
-     LayerPreset "BuildingFireView"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_EntryStair_Geometry {
-     LayerPreset "Building"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_MidStair_FireGeometry {
-     LayerPreset "BuildingFireView"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_MidStair_Geometry {
-     LayerPreset "Building"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Roof_FireGeometry {
-     LayerPreset "BuildingFireView"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Roof_Geometry {
-     LayerPreset "Building"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_RoofStair_FireGeometry {
-     LayerPreset "BuildingFireView"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_RoofStair_Geometry {
-     LayerPreset "Building"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_SmallFlat_Closed_FireGeometry {
-     LayerPreset "BuildingFireView"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_SmallFlat_Closed_Geometry {
-     LayerPreset "Building"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_SmallFlat_Open_FireGeometry {
-     LayerPreset "BuildingFireView"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_SmallFlat_Open_Geometry {
-     LayerPreset "Building"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_SmallShop_FireGeometry {
-     LayerPreset "BuildingFireView"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_SmallShop_Geometry {
-     LayerPreset "Building"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Stair_Railing_Geometry {
-     LayerPreset "Building"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_StairRailing_Top_Geometry {
-     LayerPreset "Building"
-     SurfaceProperties {
-      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
-     }
-     Mass 0
-     Margin 0
     }
    }
    Common TXOCommonClass "{64707853ADF34356}" {

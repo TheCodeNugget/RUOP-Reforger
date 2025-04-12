@@ -2,7 +2,7 @@ MetaFileClass {
  Name "{74517B91F89FFC3C}Assets/Structures/Residental/Apartment/Residental_Apartment_02/Residental_Apartment_02.xob"
  Configurations {
   FBXResourceClass PC {
-   ExportSkinning 1
+   ExportSceneHierarchy 1
    MaterialAssigns {
     MaterialAssignClass "{647D177D87319682}" {
      SourceMaterial "Residental_Apartment_02_ExtWalls_311B8663BCDB29EE"
@@ -42,15 +42,13 @@ MetaFileClass {
     }
     MaterialAssignClass "{647D177DB38E65B0}" {
      SourceMaterial "PRT_Door_Int_8E55D99EDC035CEA"
-     AssignedMaterial "{8E55D99EDC035CEA}Assets/_SharedMaterials/Portals/NULL.emat"
+     AssignedMaterial "{8E55D99EDC035CEA}Assets/_SharedMaterials/Portals/PRT_DOOR_INT_A.emat"
     }
    }
    VolumeParams {
     VolumeParam BOXVOL_01 {
-     Lerp 0
     }
     VolumeParam BOXVOL_02 {
-     Lerp 0
     }
    }
    MeshParams {
@@ -265,37 +263,31 @@ MetaFileClass {
    }
    Common TXOCommonClass "{647B0E0015FAA28F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
     GenerateBSP 1
-    ExportOpaqueLeaves 1
    }
   }
   FBXResourceClass XBOX_ONE : PC {
    Common TXOCommonClass "{647B0E0015FD57EF}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
     GenerateBSP 1
-    ExportOpaqueLeaves 1
    }
   }
   FBXResourceClass XBOX_SERIES : PC {
    Common TXOCommonClass "{647B0E0015FD4860}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
     GenerateBSP 1
-    ExportOpaqueLeaves 1
    }
   }
   FBXResourceClass PS4 : PC {
    Common TXOCommonClass "{647B0E0015FD48CE}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
     GenerateBSP 1
-    ExportOpaqueLeaves 1
    }
   }
   FBXResourceClass PS5 : PC {
    Common TXOCommonClass "{647B0E0015FD488D}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
     GenerateBSP 1
-    ExportOpaqueLeaves 1
    }
   }
   FBXResourceClass HEADLESS : PC {
    Common TXOCommonClass "{647B0E0015FD48A0}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
     GenerateBSP 1
-    ExportOpaqueLeaves 1
    }
   }
  }
