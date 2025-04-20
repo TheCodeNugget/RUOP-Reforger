@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B293A5AB1A01883D}Prefabs/Structures/Residental/Apartment/Residental_Apartment_03/Residental_Apartment_03.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

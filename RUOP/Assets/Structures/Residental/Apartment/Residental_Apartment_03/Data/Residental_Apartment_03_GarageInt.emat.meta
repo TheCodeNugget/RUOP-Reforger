@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D143A9D00BDB02D3}Assets/Structures/Residental/Apartment/Residental_Apartment_03/Data/Residental_Apartment_03_GarageInt.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

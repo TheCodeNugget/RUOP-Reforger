@@ -1,0 +1,33 @@
+MatPBRMulti {
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{9A85CE2F368F14F4}Assets/Structures/Residental/Apartment/Residental_Apartment_03/Data/Residental_Apartment_03_Apt1_Global_MASK.edds"
+ DirtOpacity 0.522
+ DirtLayerSharpness 0.3
+ DirtColor 0.227 0.227 0.227 1
+ DirtRoughness 5
+ DirtMaskMap "{A585D759C4C68372}Assets/_SharedData/DetailMask/ST_Rust_02_Mask1.edds"
+ Enabled_4 1
+ Color_4 1 1 1 1
+ BCR_4 "{805D307DE8091B1F}Assets/_SharedData/Floor/ST_Tiles_House_02_BCR.edds"
+ NMO_4 "{B8858BEF317E4981}Assets/_SharedData/Floor/ST_Tiles_House_02_NMO.edds"
+ Metalness_4 0
+ Enabled_3 1
+ Color_3 0.864 0.528 0.097 1
+ BCR_3 "{CF8E4E8EDB27CC9D}Assets/_SharedData/Wallpaper/ST_Wallpaper_flowers_04_BCR.edds"
+ NMO_3 "{579B921646232DC5}Assets/_SharedData/Wallpaper/ST_Wallpaper_01_NMO.edds"
+ Enabled_2 1
+ Color_2 0.212 0.163 0.101 1
+ BCR_2 "{1AA12E733F4CD6D9}Assets/_SharedData/Wood/ST_WoodPlain_Mid_01_BCR.edds"
+ NMO_2 "{227995E1E63B8447}Assets/_SharedData/Wood/ST_WoodPlain_Mid_01_NMO.edds"
+ UVTransform_2 MatUVTransform "{053B27219058E55A}" {
+ }
+ Metalness_2 0
+ Color_1 0.93 0.896 0.849 1
+ BCR_1 "{9C568F5695FC2681}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_BCR.edds"
+ NMO_1 "{A48E34C44C8B741F}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{56327AFE1ED0E927}" {
+  TilingU 1.5
+  TilingV 1.5
+ }
+ Metalness_1 0
+}

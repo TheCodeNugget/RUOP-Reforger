@@ -1,0 +1,37 @@
+MetaFileClass {
+ Name "{8709D9289322072F}Assets/Structures/BuildingParts/Windows/glass_1270d_7600r/Residental_Apartment_03_glass.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{652870F9E9554BBC}" {
+     SourceMaterial "glass_aged_C698E0590A5954EE"
+     AssignedMaterial "{C698E0590A5954EE}Assets/Structures/BuildingsParts/Windows/Data/window_glass_aged_INT.emat"
+    }
+   }
+   MeshParams {
+    MeshParam glass_1270d_7600r {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_glass_1270d_7600r_geo {
+     LayerPreset "GlassFire"
+     SurfaceProperties {
+      "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}

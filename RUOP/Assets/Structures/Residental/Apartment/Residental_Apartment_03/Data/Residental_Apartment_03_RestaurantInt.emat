@@ -1,0 +1,54 @@
+MatPBRMulti {
+ SurfaceProperties "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{750F52CDE86B8057}Assets/Structures/Residental/Apartment/Residental_Apartment_03/Data/Residental_Apartment_03_RestaurantInt_Global_MASK.edds"
+ NormalPower 0.296
+ MudOpacity 0.876
+ MudColor 1 0.976 0.939 1
+ MudRoughness 1.147
+ MudBCRMap "{9C568F5695FC2681}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_BCR.edds"
+ MudNMOMap "{A48E34C44C8B741F}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_NMO.edds"
+ MudMaskMap "{CBD042945A4747A5}Assets/_SharedData/DetailMask/ST_Concrete_03_Mask1.edds"
+ MudUVTransform MatUVTransform "{509C7B2E93471403}" {
+  OffsetU 0.778
+ }
+ DirtOpacity 0.889
+ DirtLayerSharpness 0.55
+ DirtColor 0.235 0.189 0.145 1
+ DirtRoughness 2.16
+ DirtBCRMap "{6BE53556B0CB5ED9}Assets/_SharedData/Plaster/ST_Plaster_Bare_02_BCR.edds"
+ DirtMaskMap "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{509C7B2A0F3D535F}" {
+  TilingU 2
+  TilingV 2
+ }
+ Enabled_4 1
+ BCR_4 "{A5A509FC6CC09E20}Assets/_SharedData/Floor/ST_Floor_House_E_04_BCR.edds"
+ NMO_4 "{9D7DB26EB5B7CCBE}Assets/_SharedData/Floor/ST_Floor_House_E_04_NMO.edds"
+ Roughness_4 0.839
+ Enabled_3 1
+ Color_3 0.089 0.071 0.056 1
+ NMO_3 "{B1A02B614BE231CA}Assets/_SharedData/Wood/ST_WoodPlanks_01_B_NMO.edds"
+ MaskSharpness_3 7
+ Mask_3 "{A3B4218CCE57A275}Assets/_SharedData/DetailMask/ST_Paint_peeling_03_Mask1.edds"
+ UVTransform_3 MatUVTransform "{50A8616AF22CFA15}" {
+  TilingU 2.25
+  OffsetU 0.05
+  Rotation 90
+ }
+ DetNormal_3 0.8
+ Roughness_3 0.72
+ Enabled_2 1
+ Color_2 0.905 0.874 0.826 1
+ BCR_2 "{DCA6AE7323E0A4C6}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_02_BCR.edds"
+ NMO_2 "{E47E15E1FA97F658}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_02_NMO.edds"
+ DetNormal_2 0.3
+ Color_1 0.768 0.598 0.491 1
+ BCR_1 "{0ACA2159A24651D1}Assets/_SharedData/Wood/ST_WoodPlanks_01_BCR.edds"
+ NMO_1 "{B1A02B614BE231CA}Assets/_SharedData/Wood/ST_WoodPlanks_01_B_NMO.edds"
+ UVTransform_1 MatUVTransform "{50A8616AEDA5C9AA}" {
+  TilingU 2.25
+  OffsetU 0.05
+  Rotation 90
+ }
+}

@@ -1,0 +1,373 @@
+MetaFileClass {
+ Name "{A0E8344549E95AC7}Assets/Structures/Residental/Apartment/Residental_Apartment_03/Residental_Apartment_03.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{651D1E27A2CC6C7E}" {
+     SourceMaterial "Ext_Walls_7FAF3F33E816629E"
+     AssignedMaterial "{7FAF3F33E816629E}Assets/Structures/Residental/Apartment/Residental_Apartment_03/Data/Residental_Apartment_03_ExtWalls.emat"
+    }
+    MaterialAssignClass "{651935BD1CB92A1C}" {
+     SourceMaterial "dummyvolume_D3975B51F51E6BD5"
+     AssignedMaterial "{D3975B51F51E6BD5}Common/Materials/dummyvolume.emat"
+    }
+    MaterialAssignClass "{651935BD1CB92A1A}" {
+     SourceMaterial "PRT_Win_0A968C0B348F4507"
+     AssignedMaterial "{0A968C0B348F4507}Assets/_SharedMaterials/Portals/PRT_130x182_A_EM.emat"
+    }
+    MaterialAssignClass "{651935BD1CB92A1B}" {
+     SourceMaterial "PRT_Door_Ext_85F26F5A188BEBB9"
+     AssignedMaterial "{85F26F5A188BEBB9}Assets/_SharedMaterials/Portals/DOOR_A_EM.emat"
+    }
+    MaterialAssignClass "{651935BD1CB92A19}" {
+     SourceMaterial "PRT_Door_Int_8E55D99EDC035CEA"
+     AssignedMaterial "{8E55D99EDC035CEA}Assets/_SharedMaterials/Portals/PRT_DOOR_INT_A.emat"
+    }
+    MaterialAssignClass "{651935BD1CB92A17}" {
+     SourceMaterial "PRT_GRGDoor_6700FA7CB5E67272"
+     AssignedMaterial "{6700FA7CB5E67272}Assets/_SharedMaterials/Portals/PRT_DOOR_GARAGE_A_EM.emat"
+    }
+    MaterialAssignClass "{65270E88D35432E8}" {
+     SourceMaterial "Misc_826BDEADB1B198B7"
+     AssignedMaterial "{826BDEADB1B198B7}Assets/Structures/Residental/Apartment/Residental_Apartment_03/Data/Residental_Apartment_03_Misc.emat"
+    }
+    MaterialAssignClass "{65269E5AFC99B911}" {
+     SourceMaterial "Restaurant_Int_EEA7AB61A37A1E28"
+     AssignedMaterial "{EEA7AB61A37A1E28}Assets/Structures/Residental/Apartment/Residental_Apartment_03/Data/Residental_Apartment_03_RestaurantInt.emat"
+    }
+    MaterialAssignClass "{65269E41088BE418}" {
+     SourceMaterial "Apt_2_BB1A210C9F3A69D2"
+     AssignedMaterial "{BB1A210C9F3A69D2}Assets/Structures/Residental/Apartment/Residental_Apartment_03/Data/Residental_Apartment_03_Apt2.emat"
+    }
+    MaterialAssignClass "{65269E7615A117E0}" {
+     SourceMaterial "Apt_3_4F12669492E701A6"
+     AssignedMaterial "{4F12669492E701A6}Assets/Structures/Residental/Apartment/Residental_Apartment_03/Data/Residental_Apartment_03_Apt3.emat"
+    }
+    MaterialAssignClass "{65269E573DD1246D}" {
+     SourceMaterial "Garage_Int_D143A9D00BDB02D3"
+     AssignedMaterial "{D143A9D00BDB02D3}Assets/Structures/Residental/Apartment/Residental_Apartment_03/Data/Residental_Apartment_03_GarageInt.emat"
+    }
+    MaterialAssignClass "{652870E295F4CC30}" {
+     SourceMaterial "Apt_1_E5F2084F20B7E7DD"
+     AssignedMaterial "{E5F2084F20B7E7DD}Assets/Structures/Residental/Apartment/Residental_Apartment_03/Data/Residental_Apartment_03_Apt1.emat"
+    }
+   }
+   VolumeParams {
+    VolumeParam BOXVOL_01 {
+     Lerp 1.5
+    }
+    VolumeParam BOXVOL_02 {
+     Lerp 1.5
+    }
+    VolumeParam BOXVOL_03 {
+     Lerp 1.5
+    }
+    VolumeParam BOXVOL_04 {
+     Lerp 1.5
+    }
+   }
+   MeshParams {
+    MeshParam Railing_Pole1 {
+    }
+    MeshParam Railing_Pole2 {
+    }
+    MeshParam Railing_Pole3 {
+    }
+    MeshParam Stairs {
+    }
+    MeshParam Stairs_EndCaps {
+    }
+    MeshParam Stairs_IntWalls {
+    }
+    MeshParam Stairs_Landing {
+    }
+    MeshParam Stairs_Railing_EndFittings {
+    }
+    MeshParam Stairs_Railing_Landing0 {
+    }
+    MeshParam Stairs_Railing_Landing1 {
+    }
+    MeshParam Stairs_Railing_Pole0 {
+    }
+    MeshParam Stairs_Railing_Steps {
+    }
+    MeshParam Stairs_Steps {
+    }
+    MeshParam Stairs_Undercarriage {
+    }
+    MeshParam Apartment_Hall {
+    }
+    MeshParam Ext_Walls {
+    }
+    MeshParam Floor_Hall {
+    }
+    MeshParam Restaurant_Int {
+    }
+    MeshParam Shop_Int {
+    }
+    MeshParam WindowFrames {
+    }
+    MeshParam Restaurant_Windows {
+    }
+    MeshParam Apartment_01 {
+    }
+    MeshParam Apartment_02 {
+    }
+    MeshParam Apartment_03 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Apartment_Floor_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+      "{EA270CE454C419FD}Common/Materials/Game/wood.gamemat"
+      "{F4BD13BAE53EB63A}Common/Materials/Game/carpet.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Apartment_Floor_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Foundation_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Foundation_BuildingFireView {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Railing_Pole1_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Railing_Pole2_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Railing_Pole3_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Roof_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Roof_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Shop_Floor_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+      "{EA270CE454C419FD}Common/Materials/Game/wood.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Shop_Floor_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_EndCaps_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_EndCaps_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_IntWalls_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_IntWalls_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_Landing_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_Landing_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_Railing_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{EA270CE454C419FD}Common/Materials/Game/wood.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_Railing_EndFittings_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_Railing_EndFittings_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_Railing_Landing0_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_Railing_Landing1_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{EA270CE454C419FD}Common/Materials/Game/wood.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_Railing_Landing1_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_Railing_Pole0_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_Railing_Steps_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_Steps_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+      "{EA270CE454C419FD}Common/Materials/Game/wood.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_Steps_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_Undercarriage_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Stairs_Undercarriage_BuildingFireView {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{651935BD5BCC1781}" {
+    GenerateBSP 1
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass PS5 : PC {
+  }
+  FBXResourceClass HEADLESS : PC {
+  }
+ }
+}
