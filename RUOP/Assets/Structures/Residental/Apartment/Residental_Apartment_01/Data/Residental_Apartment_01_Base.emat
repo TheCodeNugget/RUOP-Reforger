@@ -6,6 +6,7 @@ MatPBRMulti {
  NMO_2 "{C1E8C9194E8A014E}Assets/_SharedData/Floor/ST_Floor_Granite_Polished_01_NMO.edds"
  Roughness_2 2
  Metalness_2 0.507
+ Color_1 0.091 0.091 0.091 1
  BCR_1 "{B8D3162933C86379}Assets/_SharedData/Stone/Granite_01_BCR.edds"
  NMO_1 "{800BADBBEABF31E7}Assets/_SharedData/Stone/Granite_01_NMO.edds"
  Roughness_1 2

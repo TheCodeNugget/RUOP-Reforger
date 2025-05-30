@@ -2,9 +2,10 @@ MatPBRMulti {
  SurfaceProperties "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
  UVSrcGlobalMaps "UV set 2"
  MaskMap "{750F52CDE86B8057}Assets/Structures/Residental/Apartment/Residental_Apartment_03/Data/Residental_Apartment_03_RestaurantInt_Global_MASK.edds"
+ VFXMap "{42837C7B98D7F59B}Assets/Structures/Residental/Apartment/Residental_Apartment_03/Data/Residental_Apartment_03_RestaurantInt_Global_VFX.edds"
  NormalPower 0.296
  MudOpacity 0.876
- MudColor 1 0.976 0.939 1
+ MudColor 0.644 0.629 0.606 1
  MudRoughness 1.147
  MudBCRMap "{9C568F5695FC2681}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_BCR.edds"
  MudNMOMap "{A48E34C44C8B741F}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_NMO.edds"

@@ -1,6 +1,14 @@
 MatPBRMulti {
  UVSrcGlobalMaps "UV set 2"
  MaskMap "{DC1F9B4F32928D4C}Assets/Structures/Residental/Apartment/Residental_Apartment_03/Data/Residental_Apartment_03_Apt2_Global_MASK.edds"
+ VFXMap "{84CA41F05DC7C442}Assets/Structures/Residental/Apartment/Residental_Apartment_03/Data/Residental_Apartment_03_Apt2_Global_VFX.edds"
+ MudOpacity 0.9
+ MudColor 1 0.945 0.855 1
+ MudRoughness 1.5
+ MudMetalness 0
+ MudBCRMap "{0C9E95518A613FB7}Assets/_SharedData/Concrete/ST_Concrete_Mid_01_BCR.edds"
+ MudNMOMap "{1C5B574FA1CE7490}Assets/_SharedData/Concrete/ST_Concrete_Rough_01_NMO.edds"
+ MudMaskMap "{490DFFF4475F7EC7}Assets/_SharedData/DetailMask/ST_Dirt_09_Mask1.edds"
  DirtOpacity 0.522
  DirtLayerSharpness 0.3
  DirtColor 0.227 0.227 0.227 1
